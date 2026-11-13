@@ -217,9 +217,9 @@ def call_openai_compatible(api_key: str, base_url: str, model: str, text: str) -
         return json.loads(content)
 
 def extract_recipe_json(raw_text: str) -> dict:
-    gemini_key = os.getenv('GEMINI_API_KEY')
-    openai_key = os.getenv('OPENAI_API_KEY')
-    github_models_token = os.getenv('GITHUB_TOKEN')
+    gemini_key = (os.getenv('GEMINI_API_KEY') or '').strip()
+    openai_key = (os.getenv('OPENAI_API_KEY') or '').strip()
+    github_models_token = (os.getenv('GITHUB_TOKEN') or '').strip()
 
     image_urls = extract_image_urls(raw_text)
     if image_urls:

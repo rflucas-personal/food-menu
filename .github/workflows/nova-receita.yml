@@ -119,3 +119,15 @@ jobs:
           # Postar comentário e fechar a issue
           gh issue comment ${{ github.event.issue.number }} --body-file recipe_summary.md
           gh issue close ${{ github.event.issue.number }} --reason "completed"
+
+      - name: ⚠️ Notificar falha no Pull Request ou Issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          MSG="### ⚠️ Não foi possível processar a receita automaticamente"$'\n\n'"Possíveis causas:"$'\n'"1. O secret \`GEMINI_API_KEY\` não foi configurado ou é inválido. Adicione em: **Settings** ➔ **Secrets and variables** ➔ **Actions** ➔ **New repository secret** (\`GEMINI_API_KEY\")."$'\n'"2. O texto da receita não contém informações claras de ingredientes e modo de preparo."$'\n\n'"Consulte os detalhes na aba [Actions](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})."
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            gh pr comment ${{ github.event.pull_request.number }} --body "$MSG" || true
+          elif [ "${{ github.event_name }}" = "issues" ]; then
+            gh issue comment ${{ github.event.issue.number }} --body "$MSG" || true
+          fi
