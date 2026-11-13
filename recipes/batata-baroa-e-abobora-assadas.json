@@ -1,0 +1,61 @@
+{
+  "titulo": "Batata Baroa e Abóbora Assadas",
+  "porcoes": 11,
+  "tags": [
+    "baroa",
+    "abobora",
+    "forno",
+    "acompanhamento"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Abóbora em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Batata baroa em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Temperos a gosto",
+      "quantidade": []
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar a abóbora e a baroa em cubos.",
+    "Dispor em marmitas de vidro ou assadeira.",
+    "Temperar com azeite, sal e temperos a gosto.",
+    "Levar ao forno a 180 graus por 30-40 minutos até ficarem macias.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 17"
+}

@@ -1,0 +1,67 @@
+{
+  "titulo": "Arroz de Brócolis",
+  "porcoes": 9,
+  "tags": [
+    "arroz",
+    "brocolis",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Brócolis",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Arroz branco",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "xícaras"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar o brócolis em floretes pequenos.",
+    "Em uma panela, aquecer azeite e grelhar o alho.",
+    "Adicionar o arroz e mexer para envolver no azeite.",
+    "Acrescentar 4 xícaras de água e sal.",
+    "Adicionar o brócolis quando a água estiver fervendo.",
+    "Cozinhar em fogo baixo até secar. Tampar e desligar.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 12"
+}

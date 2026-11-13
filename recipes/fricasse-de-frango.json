@@ -1,0 +1,104 @@
+{
+  "titulo": "Fricassé de Frango",
+  "porcoes": 13,
+  "tags": [
+    "frango",
+    "fricasse",
+    "panela-de-pressao"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Frango em cubos grandes",
+      "quantidade": [
+        {
+          "quantidade": 1.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Milho cozido",
+      "quantidade": [
+        {
+          "quantidade": 200.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Leite",
+      "quantidade": [
+        {
+          "quantidade": 800.0,
+          "unidade_de_medida": "ml"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Noz-moscada",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Na panela de pressão quente, adicionar azeite e o frango em cubos. Deixar parado para grelhar sem soltar água.",
+    "Com o fundo grelhado, mexer para grelhar uniformemente.",
+    "Acrescentar alho, cebola, sal e pimenta-do-reino. Adicionar 2 xícaras de água e tampar por 20 minutos após pressão.",
+    "Para o molho: bater leite e milho no liquidificador com noz-moscada e sal.",
+    "Levar o molho para cozinhar em panela separada até engrossar (levantar fervura).",
+    "Retirar a pressão do frango e desfiar com colher ou garfo.",
+    "Misturar o frango desfiado com o molho de milho.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 14"
+}

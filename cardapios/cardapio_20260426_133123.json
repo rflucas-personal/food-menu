@@ -1,0 +1,699 @@
+[
+  {
+    "refeicao_id": "refeicao_1777221036687",
+    "porcoes_desejadas": 7,
+    "receitas": [
+      {
+        "titulo": "Parmegiana de Frango",
+        "tipo": "proteina",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Filés de frango (120 g cada)",
+            "quantidade": [
+              {
+                "quantidade": 3.5,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Aveia em flocos finos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "xícara"
+              }
+            ]
+          },
+          {
+            "nome": "Queijo muçarela",
+            "quantidade": [
+              {
+                "quantidade": 3.5,
+                "unidade_de_medida": "fatias"
+              }
+            ]
+          },
+          {
+            "nome": "Extrato de tomate",
+            "quantidade": [
+              {
+                "quantidade": 210.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 0.7,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Páprica picante",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Orégano",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "colher de sopa rasa"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Temperar os filés com limão espremido, azeite, sal, páprica picante e pimenta-do-reino.",
+          "Empanar na aveia em flocos e dispor em assadeira untada com azeite.",
+          "Levar ao forno pré-aquecido a 180 graus por 30 minutos.",
+          "Retirar do forno, acrescentar extrato de tomate, queijo muçarela e orégano por cima.",
+          "Retornar ao forno por mais 10 minutos até o queijo derreter.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 13"
+      },
+      {
+        "titulo": "Purê de Mandioca",
+        "tipo": "acompanhamento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Mandioca descascada em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 0.7,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Noz-moscada",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Colocar a mandioca em cubos em uma panela, cobrir com água e acrescentar sal.",
+          "Cozinhar até a mandioca ficar bem macia.",
+          "Adicionar noz-moscada e bater com mixer, liquidificador ou amassar com garfo.",
+          "Usar a própria água do cozimento para ajustar a textura.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 4"
+      },
+      {
+        "titulo": "Cenoura com Ervilha",
+        "tipo": "complemento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Cenoura em cubos",
+            "quantidade": [
+              {
+                "quantidade": 1.05,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Ervilha",
+            "quantidade": [
+              {
+                "quantidade": 105.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 0.7,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola",
+            "quantidade": [
+              {
+                "quantidade": 0.17,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma frigideira ou panela, aquecer azeite e grelhar alho e cebola.",
+          "Adicionar a cenoura em cubos e sal. Cozinhar até amaciar.",
+          "Acrescentar a ervilha e misturar bem.",
+          "Cozinhar por mais alguns minutos até tudo ficar macio.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 3"
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1777221058906",
+    "porcoes_desejadas": 3,
+    "receitas": [
+      {
+        "titulo": "Sobrecoxa com Mostarda e Mel",
+        "tipo": "proteina",
+        "porcoes": 3,
+        "ingredientes": [
+          {
+            "nome": "Sobrecoxas de frango",
+            "quantidade": [
+              {
+                "quantidade": 2.1,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Mostarda",
+            "quantidade": [
+              {
+                "quantidade": 0.11,
+                "unidade_de_medida": "xícara"
+              }
+            ]
+          },
+          {
+            "nome": "Mel",
+            "quantidade": [
+              {
+                "quantidade": 0.9,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Coco aminos",
+            "quantidade": [
+              {
+                "quantidade": 0.9,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Vinagre",
+            "quantidade": [
+              {
+                "quantidade": 0.45,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 0.45,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Alecrim",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Páprica picante",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.3,
+                "unidade_de_medida": "colheres de sopa rasas"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Temperar as sobrecoxas com limão, alho, sal, mostarda, vinagre, coco aminos, alecrim e páprica picante. Misturar bem.",
+          "Colocar em uma travessa, acrescentando o molho do tempero.",
+          "Levar ao forno (sem papel alumínio) por 45 minutos a 180-200 graus.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 10"
+      },
+      {
+        "titulo": "Purê de Baroa",
+        "tipo": "acompanhamento",
+        "porcoes": 3,
+        "ingredientes": [
+          {
+            "nome": "Batata baroa (mandioquinha)",
+            "quantidade": [
+              {
+                "quantidade": 0.24,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Noz-moscada",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Descascar e cortar a baroa em cubos.",
+          "Cozinhar em panela média com água e sal até ficar macia.",
+          "Adicionar noz-moscada e bater com mixer, liquidificador ou amassar com garfo.",
+          "Usar a própria água do cozimento para ajustar a textura. Se necessário, acrescentar mais água.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 6"
+      },
+      {
+        "titulo": "Legumes Assados",
+        "tipo": "complemento",
+        "porcoes": 3,
+        "ingredientes": [
+          {
+            "nome": "Cenoura",
+            "quantidade": [
+              {
+                "quantidade": 0.15,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Abóbora em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.15,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola roxa",
+            "quantidade": [
+              {
+                "quantidade": 0.6,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Tomate italiano",
+            "quantidade": [
+              {
+                "quantidade": 1.2,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Chimichurri ou temperos a gosto",
+            "quantidade": []
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar todos os legumes em cubos ou fatias uniformes.",
+          "Dispor em uma travessa/assadeira.",
+          "Regar com azeite e temperar com sal e chimichurri (ou temperos a gosto).",
+          "Levar ao forno a 200 graus por 40 minutos.",
+          "Não é necessário utilizar papel alumínio.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1777221080576",
+    "porcoes_desejadas": 4,
+    "receitas": [
+      {
+        "titulo": "Sobrecoxa com Mostarda e Mel",
+        "tipo": "proteina",
+        "porcoes": 4,
+        "ingredientes": [
+          {
+            "nome": "Sobrecoxas de frango",
+            "quantidade": [
+              {
+                "quantidade": 2.8,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Mostarda",
+            "quantidade": [
+              {
+                "quantidade": 0.15,
+                "unidade_de_medida": "xícara"
+              }
+            ]
+          },
+          {
+            "nome": "Mel",
+            "quantidade": [
+              {
+                "quantidade": 1.2,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Coco aminos",
+            "quantidade": [
+              {
+                "quantidade": 1.2,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Vinagre",
+            "quantidade": [
+              {
+                "quantidade": 0.6,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 0.6,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Alecrim",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Páprica picante",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.4,
+                "unidade_de_medida": "colheres de sopa rasas"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Temperar as sobrecoxas com limão, alho, sal, mostarda, vinagre, coco aminos, alecrim e páprica picante. Misturar bem.",
+          "Colocar em uma travessa, acrescentando o molho do tempero.",
+          "Levar ao forno (sem papel alumínio) por 45 minutos a 180-200 graus.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 10"
+      },
+      {
+        "titulo": "Purê de Batata Doce",
+        "tipo": "acompanhamento",
+        "porcoes": 4,
+        "ingredientes": [
+          {
+            "nome": "Batata doce",
+            "quantidade": [
+              {
+                "quantidade": 0.24,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Noz-moscada",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto (opcional)"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Descascar a batata doce e cortar em cubos.",
+          "Cozinhar em uma panela média com água e sal até ficar macia.",
+          "Bater com mixer ou liquidificador usando a própria água do cozimento até formar um purê cremoso.",
+          "Se necessário, acrescentar mais água aos poucos para atingir a textura desejada.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      },
+      {
+        "titulo": "Cenoura com Ervilha",
+        "tipo": "complemento",
+        "porcoes": 4,
+        "ingredientes": [
+          {
+            "nome": "Cenoura em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.6,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Ervilha",
+            "quantidade": [
+              {
+                "quantidade": 60.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 0.4,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola",
+            "quantidade": [
+              {
+                "quantidade": 0.1,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma frigideira ou panela, aquecer azeite e grelhar alho e cebola.",
+          "Adicionar a cenoura em cubos e sal. Cozinhar até amaciar.",
+          "Acrescentar a ervilha e misturar bem.",
+          "Cozinhar por mais alguns minutos até tudo ficar macio.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 3"
+      }
+    ]
+  }
+]

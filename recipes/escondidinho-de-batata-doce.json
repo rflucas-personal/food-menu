@@ -1,0 +1,84 @@
+{
+  "titulo": "Escondidinho de Batata Doce com Carne Moída",
+  "porcoes": 14,
+  "tags": [
+    "carne",
+    "batata-doce",
+    "escondidinho",
+    "forno"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Patinho moído",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Batata doce",
+      "quantidade": [
+        {
+          "quantidade": 1.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cozinhar a batata doce em cubos com água e sal até ficar macia.",
+    "Bater com mixer ou amassar com garfo, usando a água do cozimento para ajustar a textura.",
+    "Em uma panela, grelhar a carne moída com azeite. Adicionar cebola, alho e sal.",
+    "Montar o escondidinho: camada de purê, camada de carne moída, camada de purê.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 8"
+}

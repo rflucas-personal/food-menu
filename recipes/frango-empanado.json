@@ -1,0 +1,102 @@
+{
+  "titulo": "Frango Empanado",
+  "porcoes": 10,
+  "tags": [
+    "frango",
+    "forno",
+    "empanado"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Filés de peito de frango (120 g cada)",
+      "quantidade": [
+        {
+          "quantidade": 10.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Farinha de aveia",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "xícaras"
+        }
+      ]
+    },
+    {
+      "nome": "Castanha de caju triturada",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alecrim",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Páprica picante",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "colher"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher de sopa rasa"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Temperar os filés com suco de limão, azeite, sal, páprica picante e alecrim.",
+    "Para a crosta: misturar a farinha de aveia, castanhas trituradas, sal e pimenta-do-reino em uma travessa.",
+    "Empanar os filés na mistura.",
+    "Untar a forma com azeite e dispor os filés separados.",
+    "Levar ao forno a 200-220 graus por 40 minutos.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 11"
+}

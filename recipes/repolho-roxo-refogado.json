@@ -1,0 +1,56 @@
+{
+  "titulo": "Repolho Roxo Refogado",
+  "porcoes": 3,
+  "tags": [
+    "repolho",
+    "frigideira",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Repolho roxo",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Fatiar o repolho roxo finamente.",
+    "Em uma frigideira, aquecer azeite e grelhar o alho.",
+    "Acrescentar o repolho fatiado e temperar com sal.",
+    "Refogar em fogo médio até amaciar.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 10"
+}

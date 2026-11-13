@@ -1,0 +1,47 @@
+{
+  "titulo": "Purê de Inhame",
+  "porcoes": 6,
+  "tags": [
+    "inhame",
+    "pure",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Inhame",
+      "quantidade": [
+        {
+          "quantidade": 1.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher de sopa rasa"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar o inhame em cubos e colocar em uma panela com água e sal.",
+    "Tampar e cozinhar até ficar macio.",
+    "Retirar do fogo, acrescentar pimenta-do-reino e bater com mixer, liquidificador ou amassar com garfo.",
+    "Usar a própria água do cozimento. Acrescentar mais água se necessário.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 10"
+}

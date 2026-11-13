@@ -1,0 +1,65 @@
+{
+  "titulo": "Mix de Pimentões",
+  "porcoes": 4,
+  "tags": [
+    "pimentao",
+    "frigideira",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Pimentões variados (vermelho, amarelo, verde)",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar os pimentões em tiras.",
+    "Em uma frigideira, aquecer azeite e grelhar alho e cebola.",
+    "Adicionar os pimentões e temperar com sal.",
+    "Grelhar em fogo médio até ficarem macios, sem água no fundo.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 3"
+}

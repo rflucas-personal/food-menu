@@ -1,0 +1,83 @@
+{
+  "titulo": "Pernil Xadrez",
+  "porcoes": 11,
+  "tags": [
+    "suino",
+    "pernil",
+    "panela"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Pernil suíno em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola roxa",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Pimentões (amarelo, vermelho, verde)",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Coco aminos",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "colheres de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta calabresa",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela grande, colocar azeite e tempero verde, grelhar e adicionar o pernil suíno.",
+    "Misturar para grelhar de maneira uniforme.",
+    "Acrescentar cebola roxa, pimentões, coco aminos, sal e pimenta calabresa.",
+    "Adicionar 1 xícara de água e deixar cozinhar até reduzir bem o molho.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 10"
+}

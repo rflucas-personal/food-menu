@@ -1,0 +1,56 @@
+{
+  "titulo": "Tomate Confit",
+  "porcoes": 7,
+  "tags": [
+    "tomate",
+    "forno",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Tomate grape",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Manjericão",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar os tomates grape ao meio.",
+    "Dispor em uma travessa/assadeira.",
+    "Temperar com manjericão desidratado ou fresco, sal e azeite.",
+    "Levar ao forno a 160 graus por 40 minutos.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 2"
+}

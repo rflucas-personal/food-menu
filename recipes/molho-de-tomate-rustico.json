@@ -1,0 +1,93 @@
+{
+  "titulo": "Molho de Tomate Rústico",
+  "porcoes": 11,
+  "tags": [
+    "molho",
+    "tomate",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Tomate em cubos grandes",
+      "quantidade": [
+        {
+          "quantidade": 8.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho em cubos",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Folhas de louro",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Manjericão fresco",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta calabresa",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Na panela média, aquecer azeite e grelhar alho em cubos.",
+    "Adicionar cebola e tomate em cubos.",
+    "Acrescentar folhas de louro, manjericão, pimenta calabresa e 1/2 xícara de água.",
+    "Tampar e cozinhar em fogo médio até o tomate desmanchar.",
+    "Misturar bem para ficar rústico. Retirar a tampa e aumentar o fogo para reduzir.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 11"
+}

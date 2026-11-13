@@ -1,0 +1,86 @@
+{
+  "titulo": "Lagarto Desfiado",
+  "porcoes": 10,
+  "tags": [
+    "carne",
+    "lagarto",
+    "panela-de-pressao",
+    "desfiado"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Lagarto em cubos grandes",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Extrato de tomate",
+      "quantidade": [
+        {
+          "quantidade": 300.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola branca em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta calabresa",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher rasa"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela de pressão, aquecer azeite e grelhar a cebola até ficar transparente.",
+    "Adicionar o lagarto em cubos e grelhar.",
+    "Acrescentar extrato de tomate, sal, pimenta calabresa e pimenta-do-reino.",
+    "Adicionar 1/2 xícara de água. Tampar e cozinhar por 30 minutos após início da pressão.",
+    "Retirar a pressão. Se a carne ainda estiver dura, adicionar água e retornar ao cozimento.",
+    "Desfiar com colher ou garfo.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 13"
+}

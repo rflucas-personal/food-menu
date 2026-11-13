@@ -1,0 +1,58 @@
+{
+  "titulo": "Filé de Frango Assado",
+  "porcoes": 7,
+  "tags": [
+    "frango",
+    "forno"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Filés de frango (120 g cada)",
+      "quantidade": [
+        {
+          "quantidade": 10.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Temperos a gosto",
+      "quantidade": []
+    }
+  ],
+  "modo_de_preparo": [
+    "Temperar os filés com sal, pimenta-do-reino, azeite e temperos a gosto.",
+    "Dispor em marmitas de vidro ou travessa.",
+    "Levar ao forno pré-aquecido a 180 graus por 30 minutos.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 17"
+}

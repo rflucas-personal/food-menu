@@ -1,0 +1,75 @@
+{
+  "titulo": "Frango Desfiado",
+  "porcoes": 8,
+  "tags": [
+    "frango",
+    "panela-de-pressao",
+    "desfiado"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Filé de frango",
+      "quantidade": [
+        {
+          "quantidade": 1.4,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela de pressão, adicionar um fio de azeite e grelhar o frango.",
+    "Acrescentar a cebola, o alho, sal, limão espremido e água até cobrir o frango.",
+    "Fechar a panela de pressão e cozinhar por 15 minutos após início da pressão.",
+    "Retirar a pressão, descartar o excesso de água.",
+    "Desfiar o frango \"sacudindo\" a panela ou com ajuda do garfo.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 2"
+}

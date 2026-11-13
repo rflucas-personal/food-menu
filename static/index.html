@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Cardápios Inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="global-nav no-print">
+        <div class="nav-container">
+            <a href="/" class="nav-link active">Gerador de Cardápios</a>
+            <a href="/recipes.html" class="nav-link">Gerenciador de Receitas</a>
+        </div>
+    </nav>
+
+    <div class="background-decor"></div>
+    <div class="container">
+        <header>
+            <h1>Gerador de Cardápios</h1>
+            <p>Planeje suas refeições da semana e escale ingredientes automaticamente.</p>
+            <button id="btn-view-cardapios" class="btn-outline">Visualizar Meus Cardápios</button>
+        </header>
+
+        <section class="glass-panel config-section">
+            <div class="input-group">
+                <label for="dias">Quantidade de Dias</label>
+                <div class="input-wrapper">
+                    <input type="number" id="dias" min="1" max="30" value="1">
+                    <span class="suffix">dias</span>
+                </div>
+            </div>
+            
+            <div class="progress-container">
+                <div class="progress-stats">
+                    <span id="porcoes-atuais">0</span> / <span id="porcoes-meta">2</span> porções alocadas
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-bar"></div>
+                </div>
+                <p class="progress-hint">Lembrando: 1 dia = 2 porções (almoço e janta)</p>
+            </div>
+        </section>
+
+        <main class="meal-builder-container">
+            <div class="glass-panel meal-constructor">
+                <h2>Adicionar Refeição</h2>
+                <form id="meal-form">
+                    <div class="form-group">
+                        <label for="proteina">Proteína</label>
+                        <select id="proteina" name="proteina" required>
+                            <option value="" disabled selected>Selecione a proteína...</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="acompanhamento">Acompanhamento</label>
+                        <select id="acompanhamento" name="acompanhamento" required>
+                            <option value="" disabled selected>Selecione o acompanhamento...</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Complementos</label>
+                        <div id="complementos-container" class="checkbox-grid">
+                            <!-- Populated dynamically -->
+                            <div class="loading-text">Carregando complementos...</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="porcoes">Quantidade de Porções para esta refeição</label>
+                        <input type="number" id="porcoes" name="porcoes" min="1" value="2" required>
+                    </div>
+
+                    <button type="submit" class="btn-primary" id="btn-add-meal">Adicionar ao Cardápio</button>
+                </form>
+            </div>
+
+            <div class="glass-panel summary-panel">
+                <h2>Resumo do Cardápio</h2>
+                <div id="meal-list" class="meal-list">
+                    <p class="empty-state">Nenhuma refeição adicionada ainda.</p>
+                </div>
+                
+                <button class="btn-success" id="btn-generate" disabled>Gerar Arquivo JSON</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Viewer Modal -->
+    <div id="viewer-modal" class="modal hidden">
+        <div class="modal-content glass-panel" style="max-width: 500px; height: auto; max-height: 80vh;">
+            <div class="modal-header">
+                <h2>Meus Cardápios</h2>
+                <button class="btn-close" id="btn-close-modal">&times;</button>
+            </div>
+            <div class="modal-body" style="flex-direction: column;">
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Selecione um arquivo para abrir a tela de impressão:</p>
+                <div class="cardapio-list-container" style="width: 100%; border: none; padding: 0;">
+                    <ul id="cardapio-list" class="cardapio-list">
+                        <li class="loading-text">Carregando...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <span class="toast-icon">✅</span>
+            <div class="toast-message">
+                <strong id="toast-title">Sucesso!</strong>
+                <p id="toast-desc">Ação realizada com sucesso.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

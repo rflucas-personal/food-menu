@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio para Impressão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .print-actions {
+            margin-bottom: 2rem;
+            text-align: right;
+        }
+        .consolidated-list {
+            background: var(--input-bg);
+            padding: 2rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 2rem;
+            border: 1px solid var(--glass-border);
+        }
+        .consolidated-list h2 {
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+        }
+        .consolidated-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            list-style-type: none;
+        }
+        .consolidated-items li {
+            font-size: 1rem;
+            padding: 0.5rem;
+            background: white;
+            border: 1px solid var(--glass-border);
+            border-radius: 4px;
+        }
+        @media print {
+            .consolidated-list {
+                background: transparent;
+                border: none;
+                padding: 0;
+            }
+            .consolidated-items li {
+                border: none;
+                border-bottom: 1px dashed #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="global-nav no-print">
+        <div class="nav-container">
+            <a href="/" class="nav-link">Gerador de Cardápios</a>
+            <a href="/recipes.html" class="nav-link">Gerenciador de Receitas</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="print-actions no-print">
+            <button class="btn-primary" style="width: auto;" onclick="window.print()">Imprimir / Salvar PDF</button>
+            <button class="btn-outline" style="width: auto; margin-left: 1rem;" onclick="window.close()">Fechar</button>
+        </div>
+
+        <div id="content">
+            <p class="loading-text">Carregando cardápio...</p>
+        </div>
+    </div>
+
+    <script src="print.js"></script>
+</body>
+</html>

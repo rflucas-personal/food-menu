@@ -1,0 +1,53 @@
+{
+  "titulo": "Carne de panela picadinha",
+  "porcoes": 6,
+  "tags": [
+    "carne"
+  ],
+  "tipo": "proteina",
+  "fonte": "",
+  "ingredientes": [
+    {
+      "nome": "Carne (patinho, alcatra ou outro)",
+      "quantidade": [
+        {
+          "quantidade": 1,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Molho de tomate ",
+      "quantidade": [
+        {
+          "quantidade": 150,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 3,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar a carne e a cebola",
+    "Refogue a carne na panela de pressão com cebola, alho e azeite",
+    "Acrescente o molho tomate e um pouco de agua",
+    "Deixe na pressão até ficar pronto"
+  ]
+}

@@ -1,0 +1,468 @@
+[
+  {
+    "refeicao_id": "refeicao_1782425808359",
+    "porcoes_desejadas": 14,
+    "receitas": [
+      {
+        "titulo": "Parmegiana de Frango",
+        "tipo": "proteina",
+        "porcoes": 14,
+        "ingredientes": [
+          {
+            "nome": "Filés de frango (120 g cada)",
+            "quantidade": [
+              {
+                "quantidade": 10.0,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Aveia em flocos finos",
+            "quantidade": [
+              {
+                "quantidade": 1.0,
+                "unidade_de_medida": "xícara"
+              }
+            ]
+          },
+          {
+            "nome": "Queijo muçarela",
+            "quantidade": [
+              {
+                "quantidade": 10.0,
+                "unidade_de_medida": "fatias"
+              }
+            ]
+          },
+          {
+            "nome": "Extrato de tomate",
+            "quantidade": [
+              {
+                "quantidade": 600.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 2.0,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Páprica picante",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Orégano",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 1.0,
+                "unidade_de_medida": "colher de sopa rasa"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Temperar os filés com limão espremido, azeite, sal, páprica picante e pimenta-do-reino.",
+          "Empanar na aveia em flocos e dispor em assadeira untada com azeite.",
+          "Levar ao forno pré-aquecido a 180 graus por 30 minutos.",
+          "Retirar do forno, acrescentar extrato de tomate, queijo muçarela e orégano por cima.",
+          "Retornar ao forno por mais 10 minutos até o queijo derreter.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 13"
+      },
+      {
+        "titulo": "Arroz de Brócolis",
+        "tipo": "acompanhamento",
+        "porcoes": 14,
+        "ingredientes": [
+          {
+            "nome": "Brócolis",
+            "quantidade": [
+              {
+                "quantidade": 3.11,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Arroz branco",
+            "quantidade": [
+              {
+                "quantidade": 3.11,
+                "unidade_de_medida": "xícaras"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 3.11,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar o brócolis em floretes pequenos.",
+          "Em uma panela, aquecer azeite e grelhar o alho.",
+          "Adicionar o arroz e mexer para envolver no azeite.",
+          "Acrescentar 4 xícaras de água e sal.",
+          "Adicionar o brócolis quando a água estiver fervendo.",
+          "Cozinhar em fogo baixo até secar. Tampar e desligar.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 12"
+      },
+      {
+        "titulo": "Molho de Tomate Rústico",
+        "tipo": "complemento",
+        "porcoes": 14,
+        "ingredientes": [
+          {
+            "nome": "Tomate em cubos grandes",
+            "quantidade": [
+              {
+                "quantidade": 10.18,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola em cubos",
+            "quantidade": [
+              {
+                "quantidade": 1.27,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho em cubos",
+            "quantidade": [
+              {
+                "quantidade": 2.55,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Folhas de louro",
+            "quantidade": [
+              {
+                "quantidade": 2.55,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Manjericão fresco",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta calabresa",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Na panela média, aquecer azeite e grelhar alho em cubos.",
+          "Adicionar cebola e tomate em cubos.",
+          "Acrescentar folhas de louro, manjericão, pimenta calabresa e 1/2 xícara de água.",
+          "Tampar e cozinhar em fogo médio até o tomate desmanchar.",
+          "Misturar bem para ficar rústico. Retirar a tampa e aumentar o fogo para reduzir.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 11"
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1782425900161",
+    "porcoes_desejadas": 20,
+    "receitas": [
+      {
+        "titulo": "Sobrecoxa com Mostarda e Mel",
+        "tipo": "proteina",
+        "porcoes": 20,
+        "ingredientes": [
+          {
+            "nome": "Sobrecoxas de frango",
+            "quantidade": [
+              {
+                "quantidade": 21.54,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Mostarda",
+            "quantidade": [
+              {
+                "quantidade": 1.15,
+                "unidade_de_medida": "xícara"
+              }
+            ]
+          },
+          {
+            "nome": "Mel",
+            "quantidade": [
+              {
+                "quantidade": 9.23,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Coco aminos",
+            "quantidade": [
+              {
+                "quantidade": 9.23,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Vinagre",
+            "quantidade": [
+              {
+                "quantidade": 4.62,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 4.62,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Alecrim",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Páprica picante",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 3.08,
+                "unidade_de_medida": "colheres de sopa rasas"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Temperar as sobrecoxas com limão, alho, sal, mostarda, vinagre, coco aminos, alecrim e páprica picante. Misturar bem.",
+          "Colocar em uma travessa, acrescentando o molho do tempero.",
+          "Levar ao forno (sem papel alumínio) por 45 minutos a 180-200 graus.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 10"
+      },
+      {
+        "titulo": "Arroz de Brócolis",
+        "tipo": "acompanhamento",
+        "porcoes": 20,
+        "ingredientes": [
+          {
+            "nome": "Brócolis",
+            "quantidade": [
+              {
+                "quantidade": 4.44,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Arroz branco",
+            "quantidade": [
+              {
+                "quantidade": 4.44,
+                "unidade_de_medida": "xícaras"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 4.44,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar o brócolis em floretes pequenos.",
+          "Em uma panela, aquecer azeite e grelhar o alho.",
+          "Adicionar o arroz e mexer para envolver no azeite.",
+          "Acrescentar 4 xícaras de água e sal.",
+          "Adicionar o brócolis quando a água estiver fervendo.",
+          "Cozinhar em fogo baixo até secar. Tampar e desligar.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 12"
+      },
+      {
+        "titulo": "Batata Saute",
+        "tipo": "complemento",
+        "porcoes": 20,
+        "ingredientes": [
+          {
+            "nome": "Batata Inglesa",
+            "quantidade": [
+              {
+                "quantidade": 2.0,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Descarque e corte a batara em pedaços  bem pequenos",
+          "Leve uma porção ao microondas por 7 minutos",
+          "Refogue essa porção com azeine na frigideira até criar uma casquinha",
+          "Repita o processo até fazer toda a batata"
+        ],
+        "fonte": ""
+      }
+    ]
+  }
+]

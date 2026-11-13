@@ -1,0 +1,103 @@
+{
+  "titulo": "Almôndega de Carne com Molho de Tomate",
+  "porcoes": 10,
+  "tags": [
+    "carne",
+    "almondega",
+    "molho-de-tomate",
+    "panela"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Carne moída",
+      "quantidade": [
+        {
+          "quantidade": 1.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Farinha de aveia",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Passata de tomate",
+      "quantidade": [
+        {
+          "quantidade": 500.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Ovo",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Misturar a carne moída com farinha de aveia, ovo, sal e pimenta-do-reino. Moldar as almôndegas.",
+    "Em uma panela grande, aquecer azeite e grelhar cebola e alho.",
+    "Adicionar as almôndegas e dourar levemente.",
+    "Acrescentar a passata de tomate e uma xícara de água.",
+    "Cozinhar em fogo baixo por 20-25 minutos até o molho reduzir.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 4"
+}

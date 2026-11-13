@@ -1,0 +1,24 @@
+{
+  "titulo": "Batata Saute",
+  "porcoes": 7,
+  "tags": [],
+  "tipo": "complemento",
+  "fonte": "",
+  "ingredientes": [
+    {
+      "nome": "Batata Inglesa",
+      "quantidade": [
+        {
+          "quantidade": 1,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Descarque e corte a batara em pedaços  bem pequenos",
+    "Leve uma porção ao microondas por 7 minutos",
+    "Refogue essa porção com azeine na frigideira até criar uma casquinha",
+    "Repita o processo até fazer toda a batata"
+  ]
+}

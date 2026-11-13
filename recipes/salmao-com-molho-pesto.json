@@ -1,0 +1,94 @@
+{
+  "titulo": "Salmão com Molho Pesto",
+  "porcoes": 10,
+  "tags": [
+    "peixe",
+    "salmao",
+    "forno",
+    "pesto"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Postas de salmão (150 g cada)",
+      "quantidade": [
+        {
+          "quantidade": 10.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Manjericão fresco",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Castanha de caju",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "dente"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0.25,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Untar a forma com azeite. Dispor as postas de salmão com a pele virada para baixo.",
+    "Temperar com azeite, sal e pimenta-do-reino.",
+    "Levar ao forno a 200-220 graus por 30 minutos.",
+    "Para o molho pesto: bater no processador as castanhas, suco de 2 limões, 1/4 xícara de azeite, manjericão, sal, alho e pimenta-do-reino.",
+    "Servir o salmão com o molho pesto por cima.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 11"
+}

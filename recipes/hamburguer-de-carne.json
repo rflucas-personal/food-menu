@@ -1,0 +1,75 @@
+{
+  "titulo": "Hambúrguer de Carne",
+  "porcoes": 6,
+  "tags": [
+    "carne",
+    "hamburguer",
+    "forno"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Patinho moído",
+      "quantidade": [
+        {
+          "quantidade": 1.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Orégano",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Páprica picante",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Untar a assadeira com azeite.",
+    "Temperar o patinho moído com orégano, páprica, pimenta-do-reino e sal. Misturar bem.",
+    "Com as mãos, pegar cerca de 120 g de carne (uma palma da mão cheia) e moldar em formato de hambúrguer, apertando bem.",
+    "Dispor na assadeira.",
+    "Levar ao forno pré-aquecido a 180 graus por 30-40 minutos.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 14"
+}

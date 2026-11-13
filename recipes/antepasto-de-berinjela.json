@@ -1,0 +1,83 @@
+{
+  "titulo": "Antepasto de Berinjela",
+  "porcoes": 7,
+  "tags": [
+    "berinjela",
+    "forno",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Berinjela em cubos",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Tomate italiano",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Orégano",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar a berinjela em cubos e dispor em uma travessa.",
+    "Acrescentar tomate, cebola e alho picados.",
+    "Temperar com azeite, sal e orégano.",
+    "Levar ao forno a 200 graus por 30-40 minutos.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 4"
+}

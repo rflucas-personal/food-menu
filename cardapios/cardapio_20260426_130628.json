@@ -1,0 +1,697 @@
+[
+  {
+    "refeicao_id": "refeicao_1777219551706",
+    "porcoes_desejadas": 7,
+    "receitas": [
+      {
+        "titulo": "Frango com Molho de Tomate",
+        "tipo": "proteina",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Filé de frango em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.49,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Passata de tomate",
+            "quantidade": [
+              {
+                "quantidade": 175.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 1.4,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela de pressão, adicionar um fio de azeite e grelhar o frango em cubos.",
+          "Adicionar 1 xícara de molho de tomate, 1 limão espremido, 1/3 da cebola em cubos, 1/3 do alho em cubos, 1 colher e meia de sal.",
+          "Acrescentar água até cobrir o frango. Fechar a tampa da panela de pressão.",
+          "Contar 15 minutos a partir do momento que iniciar a pressão da panela.",
+          "Retirar a pressão da panela. Descartar o excesso de água. Desfiado é opcional.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      },
+      {
+        "titulo": "Arroz 7 Grãos",
+        "tipo": "acompanhamento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Arroz 7 grãos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 1.05,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola",
+            "quantidade": [
+              {
+                "quantidade": 0.17,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Picar o alho e a cebola.",
+          "Em uma panela, refogar o alho e a cebola no azeite.",
+          "Adicionar cerca de 600g (aprox. 3 xícaras) do arroz 7 grãos e o sal. (Não cozinhe o pacote todo para evitar sobras excessivas).",
+          "Adicionar 3 medidas de água para cada medida de arroz.",
+          "Cozinhar em fogo baixo com a panela semi-tampada até a água secar e o arroz ficar macio (aproximadamente 30-40 minutos).",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "IA"
+      },
+      {
+        "titulo": "Legumes Assados",
+        "tipo": "complemento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Cenoura",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Abóbora em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola roxa",
+            "quantidade": [
+              {
+                "quantidade": 1.4,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Tomate italiano",
+            "quantidade": [
+              {
+                "quantidade": 2.8,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Chimichurri ou temperos a gosto",
+            "quantidade": []
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar todos os legumes em cubos ou fatias uniformes.",
+          "Dispor em uma travessa/assadeira.",
+          "Regar com azeite e temperar com sal e chimichurri (ou temperos a gosto).",
+          "Levar ao forno a 200 graus por 40 minutos.",
+          "Não é necessário utilizar papel alumínio.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1777219567313",
+    "porcoes_desejadas": 8,
+    "receitas": [
+      {
+        "titulo": "Pernil Xadrez",
+        "tipo": "proteina",
+        "porcoes": 8,
+        "ingredientes": [
+          {
+            "nome": "Pernil suíno em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.6,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola roxa",
+            "quantidade": [
+              {
+                "quantidade": 0.8,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Pimentões (amarelo, vermelho, verde)",
+            "quantidade": [
+              {
+                "quantidade": 1.2,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Coco aminos",
+            "quantidade": [
+              {
+                "quantidade": 1.6,
+                "unidade_de_medida": "colheres de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta calabresa",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela grande, colocar azeite e tempero verde, grelhar e adicionar o pernil suíno.",
+          "Misturar para grelhar de maneira uniforme.",
+          "Acrescentar cebola roxa, pimentões, coco aminos, sal e pimenta calabresa.",
+          "Adicionar 1 xícara de água e deixar cozinhar até reduzir bem o molho.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 10"
+      },
+      {
+        "titulo": "Purê de Banana-da-Terra",
+        "tipo": "acompanhamento",
+        "porcoes": 8,
+        "ingredientes": [
+          {
+            "nome": "Banana-da-terra em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.56,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Alho em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.4,
+                "unidade_de_medida": "colher"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.4,
+                "unidade_de_medida": "colher rasa"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela grande, grelhar alho em cubos com azeite.",
+          "Adicionar a banana-da-terra em cubos.",
+          "Acrescentar 3 xícaras de água, sal e pimenta-do-reino. Tampar a panela.",
+          "Cozinhar em fogo médio até a banana ficar macia.",
+          "Usar mixer ou garfo para preparar o purê. Adicionar água aos poucos para a textura desejada.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 11"
+      },
+      {
+        "titulo": "Brócolis Assado",
+        "tipo": "complemento",
+        "porcoes": 8,
+        "ingredientes": [
+          {
+            "nome": "Brócolis",
+            "quantidade": [
+              {
+                "quantidade": 0.4,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar o brócolis em floretes.",
+          "Dispor em uma travessa/assadeira.",
+          "Regar com azeite e temperar com sal.",
+          "Levar ao forno a 200 graus por 25–30 minutos até dourar.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 2"
+      },
+      {
+        "titulo": "Legumes Assados",
+        "tipo": "complemento",
+        "porcoes": 8,
+        "ingredientes": [
+          {
+            "nome": "Cenoura",
+            "quantidade": [
+              {
+                "quantidade": 0.4,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Abóbora em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.4,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola roxa",
+            "quantidade": [
+              {
+                "quantidade": 1.6,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Tomate italiano",
+            "quantidade": [
+              {
+                "quantidade": 3.2,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Chimichurri ou temperos a gosto",
+            "quantidade": []
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar todos os legumes em cubos ou fatias uniformes.",
+          "Dispor em uma travessa/assadeira.",
+          "Regar com azeite e temperar com sal e chimichurri (ou temperos a gosto).",
+          "Levar ao forno a 200 graus por 40 minutos.",
+          "Não é necessário utilizar papel alumínio.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1777219584648",
+    "porcoes_desejadas": 13,
+    "receitas": [
+      {
+        "titulo": "Bobó de Frango",
+        "tipo": "proteina",
+        "porcoes": 13,
+        "ingredientes": [
+          {
+            "nome": "Frango em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.98,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Mandioca em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.65,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Passata de tomate",
+            "quantidade": [
+              {
+                "quantidade": 195.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.65,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 2.6,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Pimentão",
+            "quantidade": [
+              {
+                "quantidade": 0.65,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Coentro",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Páprica picante",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela grande, adicionar azeite e grelhar o frango em cubos.",
+          "Acrescentar sal, cebola, alho e pimentão em cubos. Grelhar bem.",
+          "Adicionar a passata de tomate e a mesma medida de água, deixar cozinhar.",
+          "Em outra panela, cozinhar a mandioca em cubos com água e sal até ficar macia.",
+          "Bater a mandioca com a água do cozimento usando mixer ou liquidificador.",
+          "Adicionar a mistura de mandioca na panela do frango. Finalizar com coentro.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 8"
+      },
+      {
+        "titulo": "Purê de Inhame",
+        "tipo": "acompanhamento",
+        "porcoes": 13,
+        "ingredientes": [
+          {
+            "nome": "Inhame",
+            "quantidade": [
+              {
+                "quantidade": 0.78,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.65,
+                "unidade_de_medida": "colher de sopa rasa"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar o inhame em cubos e colocar em uma panela com água e sal.",
+          "Tampar e cozinhar até ficar macio.",
+          "Retirar do fogo, acrescentar pimenta-do-reino e bater com mixer, liquidificador ou amassar com garfo.",
+          "Usar a própria água do cozimento. Acrescentar mais água se necessário.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 10"
+      },
+      {
+        "titulo": "Molho de Mostarda e Mel",
+        "tipo": "complemento",
+        "porcoes": 13,
+        "ingredientes": [
+          {
+            "nome": "Mostarda",
+            "quantidade": [
+              {
+                "quantidade": 0.65,
+                "unidade_de_medida": "colher de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Mel",
+            "quantidade": [
+              {
+                "quantidade": 0.33,
+                "unidade_de_medida": "colher de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.65,
+                "unidade_de_medida": "colher de sopa"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em um recipiente, misturar a mostarda, o mel, o azeite, sal e pimenta-do-reino.",
+          "Mexer bem até ficar homogêneo.",
+          "Utilizar como molho para salada ou para acompanhar carnes.",
+          "Armazenamento: dura 5 dias na geladeira em pote fechado."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 7"
+      }
+    ]
+  }
+]

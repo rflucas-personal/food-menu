@@ -1,0 +1,83 @@
+{
+  "titulo": "Frango com Molho de Laranja",
+  "porcoes": 11,
+  "tags": [
+    "frango",
+    "panela-de-pressao",
+    "laranja"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Frango em cubos grandes",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Laranja (suco)",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Farinha de aveia",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "colheres de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela de pressão, adicionar azeite e grelhar o frango em cubos.",
+    "Acrescentar cebola, alho, sal, suco de laranja e água.",
+    "Fechar a panela de pressão e cozinhar por 15 minutos após início da pressão.",
+    "Retirar a pressão. Engrossar o molho com farinha de aveia diluída em água fria.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 3"
+}

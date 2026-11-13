@@ -1,0 +1,76 @@
+{
+  "titulo": "Carne Moída à Bolonhesa",
+  "porcoes": 11,
+  "tags": [
+    "carne",
+    "panela",
+    "molho-de-tomate",
+    "bolonhesa"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Carne moída",
+      "quantidade": [
+        {
+          "quantidade": 1.4,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Passata de tomate",
+      "quantidade": [
+        {
+          "quantidade": 700.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela grande ou frigideira, adicionar um fio de azeite e colocar a carne moída.",
+    "Distribuir bem no fundo e deixar grelhar sem mexer até secar o fundo.",
+    "Quando a carne já estiver secando o fundo, mexer para grelhar uniformemente.",
+    "Acrescentar a cebola e o alho. Grelhar bem.",
+    "Adicionar 700 g de molho de tomate e cozinhar até engrossar.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 2"
+}

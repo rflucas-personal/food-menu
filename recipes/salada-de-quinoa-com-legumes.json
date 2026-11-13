@@ -1,0 +1,93 @@
+{
+  "titulo": "Salada de Quinoa com Legumes",
+  "porcoes": 15,
+  "tags": [
+    "quinoa",
+    "legumes",
+    "salada"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Quinoa",
+      "quantidade": [
+        {
+          "quantidade": 500.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola roxa em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Pimentões (verde, vermelho, amarelo)",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Orégano",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta calabresa",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cozinhar a quinoa com o dobro de água em fogo baixo. Quando secar, desligar e tampar.",
+    "Em uma frigideira, grelhar cebola roxa com azeite até ficar transparente.",
+    "Adicionar pimentões, sal e orégano. Grelhar até não ter água no fundo.",
+    "Misturar a quinoa cozida com os legumes grelhados.",
+    "Adicionar azeite, pimenta calabresa, orégano e limão espremido.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 13"
+}

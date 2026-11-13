@@ -1,0 +1,84 @@
+{
+  "titulo": "Frango com Molho de Tomate",
+  "porcoes": 11,
+  "tags": [
+    "frango",
+    "panela-de-pressao",
+    "molho-de-tomate"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Filé de frango em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.4,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Passata de tomate",
+      "quantidade": [
+        {
+          "quantidade": 500.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela de pressão, adicionar um fio de azeite e grelhar o frango em cubos.",
+    "Adicionar 1 xícara de molho de tomate, 1 limão espremido, 1/3 da cebola em cubos, 1/3 do alho em cubos, 1 colher e meia de sal.",
+    "Acrescentar água até cobrir o frango. Fechar a tampa da panela de pressão.",
+    "Contar 15 minutos a partir do momento que iniciar a pressão da panela.",
+    "Retirar a pressão da panela. Descartar o excesso de água. Desfiado é opcional.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 1"
+}

@@ -1,0 +1,47 @@
+{
+  "titulo": "Purê de Batata Doce",
+  "porcoes": 6,
+  "tags": [
+    "batata-doce",
+    "pure",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Batata doce",
+      "quantidade": [
+        {
+          "quantidade": 1.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Noz-moscada",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto (opcional)"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Descascar a batata doce e cortar em cubos.",
+    "Cozinhar em uma panela média com água e sal até ficar macia.",
+    "Bater com mixer ou liquidificador usando a própria água do cozimento até formar um purê cremoso.",
+    "Se necessário, acrescentar mais água aos poucos para atingir a textura desejada.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 1"
+}

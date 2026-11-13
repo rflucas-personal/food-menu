@@ -1,0 +1,56 @@
+{
+  "titulo": "Purê de Mandioca",
+  "porcoes": 5,
+  "tags": [
+    "mandioca",
+    "pure",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Mandioca descascada em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Noz-moscada",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Colocar a mandioca em cubos em uma panela, cobrir com água e acrescentar sal.",
+    "Cozinhar até a mandioca ficar bem macia.",
+    "Adicionar noz-moscada e bater com mixer, liquidificador ou amassar com garfo.",
+    "Usar a própria água do cozimento para ajustar a textura.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 4"
+}

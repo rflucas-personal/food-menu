@@ -1,0 +1,67 @@
+{
+  "titulo": "Panqueca de Aveia",
+  "porcoes": 4,
+  "tags": [
+    "panqueca",
+    "aveia",
+    "frigideira"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Farinha de aveia",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "xícara e meia"
+        }
+      ]
+    },
+    {
+      "nome": "Ovos",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Leite",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "xícara e meia"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "pitada"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Bater ovos, farinha de aveia, azeite, leite e sal até a massa ficar uniforme.",
+    "Untar uma frigideira com azeite.",
+    "Dispor uma concha da massa e espalhar uniformemente. Tampar.",
+    "Com o auxílio de uma espátula, virar a panqueca para dourar o outro lado.",
+    "Repetir até atingir o número desejado (5 para 1 pessoa, 10 para 2 pessoas).",
+    "Para rechear: acrescentar recheio no centro da massa, dobrar os lados e fechar as pontas. Dispor na marmita com as dobras para baixo.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 16"
+}

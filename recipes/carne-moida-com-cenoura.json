@@ -1,0 +1,75 @@
+{
+  "titulo": "Carne Moída com Cenoura",
+  "porcoes": 9,
+  "tags": [
+    "carne",
+    "panela",
+    "cenoura"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Carne moída",
+      "quantidade": [
+        {
+          "quantidade": 1.4,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Cenoura em cubos",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela grande, adicionar um fio de azeite e colocar a carne moída, distribuindo bem no fundo.",
+    "Quando a carne estiver secando o fundo, mexer para grelhar uniformemente.",
+    "Acrescentar a cebola e o alho. Grelhar bem.",
+    "Adicionar a cenoura em cubos e temperar com sal.",
+    "Cozinhar até a cenoura ficar macia.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 1"
+}

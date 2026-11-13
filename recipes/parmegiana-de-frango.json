@@ -1,0 +1,112 @@
+{
+  "titulo": "Parmegiana de Frango",
+  "porcoes": 14,
+  "tags": [
+    "frango",
+    "forno",
+    "parmegiana",
+    "queijo"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Filés de frango (120 g cada)",
+      "quantidade": [
+        {
+          "quantidade": 10.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Aveia em flocos finos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Queijo muçarela",
+      "quantidade": [
+        {
+          "quantidade": 10.0,
+          "unidade_de_medida": "fatias"
+        }
+      ]
+    },
+    {
+      "nome": "Extrato de tomate",
+      "quantidade": [
+        {
+          "quantidade": 600.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Páprica picante",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Orégano",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher de sopa rasa"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Temperar os filés com limão espremido, azeite, sal, páprica picante e pimenta-do-reino.",
+    "Empanar na aveia em flocos e dispor em assadeira untada com azeite.",
+    "Levar ao forno pré-aquecido a 180 graus por 30 minutos.",
+    "Retirar do forno, acrescentar extrato de tomate, queijo muçarela e orégano por cima.",
+    "Retornar ao forno por mais 10 minutos até o queijo derreter.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 13"
+}

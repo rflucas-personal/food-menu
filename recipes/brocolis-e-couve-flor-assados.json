@@ -1,0 +1,57 @@
+{
+  "titulo": "Brócolis e Couve-flor Assados",
+  "porcoes": 7,
+  "tags": [
+    "brocolis",
+    "couve-flor",
+    "forno",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Brócolis",
+      "quantidade": [
+        {
+          "quantidade": 500.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Couve-flor",
+      "quantidade": [
+        {
+          "quantidade": 500.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar brócolis e couve-flor em floretes.",
+    "Dispor em uma travessa/assadeira.",
+    "Regar com azeite e temperar com sal.",
+    "Levar ao forno a 200 graus por 25-30 minutos até dourar.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 6"
+}

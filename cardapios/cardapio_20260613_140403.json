@@ -1,0 +1,458 @@
+[
+  {
+    "refeicao_id": "refeicao_1781370179693",
+    "porcoes_desejadas": 20,
+    "receitas": [
+      {
+        "titulo": "Carne de panela picadinha",
+        "tipo": "proteina",
+        "porcoes": 20,
+        "ingredientes": [
+          {
+            "nome": "Carne (patinho, alcatra ou outro)",
+            "quantidade": [
+              {
+                "quantidade": 2.5,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Molho de tomate ",
+            "quantidade": [
+              {
+                "quantidade": 375.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola",
+            "quantidade": [
+              {
+                "quantidade": 1.25,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 7.5,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar a carne e a cebola",
+          "Refogue a carne na panela de pressão com cebola, alho e azeite",
+          "Acrescente o molho tomate e um pouco de agua",
+          "Deixe na pressão até ficar pronto"
+        ],
+        "fonte": ""
+      },
+      {
+        "titulo": "Arroz Branco",
+        "tipo": "acompanhamento",
+        "porcoes": 20,
+        "ingredientes": [
+          {
+            "nome": "Arroz branco",
+            "quantidade": [
+              {
+                "quantidade": 1166.67,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 6.67,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Óleo ou Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, aquecer o óleo e refogar o alho picado.",
+          "Adicionar o arroz e refogar por alguns minutos.",
+          "Acrescentar a água quente (o dobro da medida do arroz) e o sal.",
+          "Cozinhar em fogo baixo com a panela semitampada até secar a água.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer."
+        ],
+        "fonte": ""
+      },
+      {
+        "titulo": "Batata Saute",
+        "tipo": "complemento",
+        "porcoes": 20,
+        "ingredientes": [
+          {
+            "nome": "Batata Inglesa",
+            "quantidade": [
+              {
+                "quantidade": 2.0,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Descarque e corte a batara em pedaços  bem pequenos",
+          "Leve uma porção ao microondas por 7 minutos",
+          "Refogue essa porção com azeine na frigideira até criar uma casquinha",
+          "Repita o processo até fazer toda a batata"
+        ],
+        "fonte": ""
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1781370199275",
+    "porcoes_desejadas": 10,
+    "receitas": [
+      {
+        "titulo": "Fricassé de Frango",
+        "tipo": "proteina",
+        "porcoes": 10,
+        "ingredientes": [
+          {
+            "nome": "Frango em cubos grandes",
+            "quantidade": [
+              {
+                "quantidade": 0.92,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Milho cozido",
+            "quantidade": [
+              {
+                "quantidade": 153.85,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Leite",
+            "quantidade": [
+              {
+                "quantidade": 615.38,
+                "unidade_de_medida": "ml"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.77,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 3.08,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Noz-moscada",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Na panela de pressão quente, adicionar azeite e o frango em cubos. Deixar parado para grelhar sem soltar água.",
+          "Com o fundo grelhado, mexer para grelhar uniformemente.",
+          "Acrescentar alho, cebola, sal e pimenta-do-reino. Adicionar 2 xícaras de água e tampar por 20 minutos após pressão.",
+          "Para o molho: bater leite e milho no liquidificador com noz-moscada e sal.",
+          "Levar o molho para cozinhar em panela separada até engrossar (levantar fervura).",
+          "Retirar a pressão do frango e desfiar com colher ou garfo.",
+          "Misturar o frango desfiado com o molho de milho.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 14"
+      },
+      {
+        "titulo": "Arroz Branco",
+        "tipo": "acompanhamento",
+        "porcoes": 10,
+        "ingredientes": [
+          {
+            "nome": "Arroz branco",
+            "quantidade": [
+              {
+                "quantidade": 583.33,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 3.33,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Óleo ou Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, aquecer o óleo e refogar o alho picado.",
+          "Adicionar o arroz e refogar por alguns minutos.",
+          "Acrescentar a água quente (o dobro da medida do arroz) e o sal.",
+          "Cozinhar em fogo baixo com a panela semitampada até secar a água.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer."
+        ],
+        "fonte": ""
+      },
+      {
+        "titulo": "Batata Saute",
+        "tipo": "complemento",
+        "porcoes": 10,
+        "ingredientes": [
+          {
+            "nome": "Batata Inglesa",
+            "quantidade": [
+              {
+                "quantidade": 1.0,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Descarque e corte a batara em pedaços  bem pequenos",
+          "Leve uma porção ao microondas por 7 minutos",
+          "Refogue essa porção com azeine na frigideira até criar uma casquinha",
+          "Repita o processo até fazer toda a batata"
+        ],
+        "fonte": ""
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1781370240897",
+    "porcoes_desejadas": 18,
+    "receitas": [
+      {
+        "titulo": "Frango com Molho de Tomate",
+        "tipo": "proteina",
+        "porcoes": 18,
+        "ingredientes": [
+          {
+            "nome": "Filé de frango em cubos",
+            "quantidade": [
+              {
+                "quantidade": 2.29,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Passata de tomate",
+            "quantidade": [
+              {
+                "quantidade": 818.18,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola em cubos",
+            "quantidade": [
+              {
+                "quantidade": 1.64,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 6.55,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 1.64,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela de pressão, adicionar um fio de azeite e grelhar o frango em cubos.",
+          "Adicionar 1 xícara de molho de tomate, 1 limão espremido, 1/3 da cebola em cubos, 1/3 do alho em cubos, 1 colher e meia de sal.",
+          "Acrescentar água até cobrir o frango. Fechar a tampa da panela de pressão.",
+          "Contar 15 minutos a partir do momento que iniciar a pressão da panela.",
+          "Retirar a pressão da panela. Descartar o excesso de água. Desfiado é opcional.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      },
+      {
+        "titulo": "Pene - Macarrão",
+        "tipo": "acompanhamento",
+        "porcoes": 18,
+        "ingredientes": [
+          {
+            "nome": "Macarrão Pene",
+            "quantidade": [
+              {
+                "quantidade": 360.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Preparar o macarrão normalmente. Para congelamento, pode deixar ele um pouco mais ao dente."
+        ],
+        "fonte": ""
+      },
+      {
+        "titulo": "Brócolis Assado",
+        "tipo": "complemento",
+        "porcoes": 18,
+        "ingredientes": [
+          {
+            "nome": "Brócolis",
+            "quantidade": [
+              {
+                "quantidade": 2.57,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Cortar o brócolis em floretes.",
+          "Dispor em uma travessa/assadeira.",
+          "Regar com azeite e temperar com sal.",
+          "Levar ao forno a 200 graus por 25–30 minutos até dourar.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 2"
+      }
+    ]
+  }
+]

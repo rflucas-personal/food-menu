@@ -1,0 +1,122 @@
+name: 🍳 Agente de Novas Receitas
+
+on:
+  pull_request:
+    types: [opened, edited, labeled]
+  issues:
+    types: [opened, labeled]
+  workflow_dispatch:
+    inputs:
+      recipe_text:
+        description: "Texto ou link da receita a cadastrar"
+        required: true
+        type: string
+      source:
+        description: "Fonte da receita (opcional)"
+        required: false
+        default: "Manual (GitHub Actions)"
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  processar-receita:
+    # Executa se:
+    # 1. É um PR com label 'receita' ou título começando com [Receita] ou [receita]
+    # 2. É uma Issue com label 'nova-receita' ou título com [Receita]
+    # 3. É um disparo manual (workflow_dispatch)
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request' && (contains(github.event.pull_request.labels.*.name, 'receita') || startsWith(github.event.pull_request.title, '[Receita]') || startsWith(github.event.pull_request.title, '[receita]'))) ||
+      (github.event_name == 'issues' && (contains(github.event.issue.labels.*.name, 'nova-receita') || startsWith(github.event.issue.title, '[Receita]') || startsWith(github.event.issue.title, '[receita]')))
+    
+    runs-views: [ubuntu-latest]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Clonar repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 📝 Extrair texto da receita
+        id: extract
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "RECIPE_RAW<<EOF" >> $GITHUB_ENV
+            echo "${{ github.event.inputs.recipe_text }}" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            echo "SOURCE_LABEL=${{ github.event.inputs.source }}" >> $GITHUB_ENV
+          elif [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "RECIPE_RAW<<EOF" >> $GITHUB_ENV
+            echo "${{ github.event.pull_request.body }}" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            echo "SOURCE_LABEL=PR #${{ github.event.pull_request.number }} (${{ github.event.pull_request.user.login }})" >> $GITHUB_ENV
+          elif [ "${{ github.event_name }}" = "issues" ]; then
+            echo "RECIPE_RAW<<EOF" >> $GITHUB_ENV
+            echo "${{ github.event.issue.body }}" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            echo "SOURCE_LABEL=Issue #${{ github.event.issue.number }} (${{ github.event.issue.user.login }})" >> $GITHUB_ENV
+          fi
+
+      - name: 🤖 Processar receita com o Agente de IA
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          RECIPE_RAW_CONTENT: ${{ env.RECIPE_RAW }}
+        run: |
+          python scripts/recipe_agent.py --source "${{ env.SOURCE_LABEL }}"
+
+      - name: 🧪 Validar integridade de todas as receitas
+        run: |
+          python scripts/validate_recipes.py
+
+      - name: 💾 Commit da nova receita
+        id: commit_step
+        run: |
+          git config --global user.name "Food Menu Bot"
+          git config --global user.email "bot@foodmenu.local"
+          git add recipes/
+          
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração para commitar."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "feat(receita): adicionar/atualizar ${RECIPE_TITLE:-nova receita}"
+            git push
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 💬 Comentar no Pull Request e Auto-Merge
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Postar comentário com o resumo
+          gh pr comment ${{ github.event.pull_request.number }} --body-file recipe_summary.md
+          
+          # Realizar auto-merge para a main
+          gh pr merge ${{ github.event.pull_request.number }} --squash --auto || gh pr merge ${{ github.event.pull_request.number }} --merge || echo "Merge automático agendado ou concluído."
+
+      - name: 💬 Comentar e Fechar Issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Postar comentário e fechar a issue
+          gh issue comment ${{ github.event.issue.number }} --body-file recipe_summary.md
+          gh issue close ${{ github.event.issue.number }} --reason "completed"

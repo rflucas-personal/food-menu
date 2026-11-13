@@ -1,0 +1,30 @@
+name: "🍳 Cadastrar Nova Receita"
+description: "Envie uma receita em texto livre para o Agente cadastrar automaticamente na main."
+title: "[Receita]: "
+labels: ["nova-receita"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O Agente de IA irá ler as informações abaixo, padronizar os ingredientes, calcular as porções com base no peso cozido (~150g/120g) e commitar o arquivo JSON direto na `main`.
+  - type: textarea
+    id: recipe_body
+    attributes:
+      label: "Texto da Receita"
+      description: "Cole aqui os ingredientes, quantidades e modo de preparo (pode ser texto livre, lista ou transcrição)."
+      placeholder: |
+        Ingredientes:
+        - 1 kg de filé de peito de frango
+        - 2 colheres de sopa de azeite
+        - 1 cebola picada
+        ...
+        
+        Modo de preparo:
+        1. Corte o frango em cubos...
+    validations:
+      required: true
+  - type: input
+    id: recipe_source
+    attributes:
+      label: "Fonte / Referência (opcional)"
+      placeholder: "Ex: Livro da Vovó, Link da Web, Instagram, etc."

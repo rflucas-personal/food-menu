@@ -1,0 +1,76 @@
+{
+  "titulo": "Carne Desfiada",
+  "porcoes": 13,
+  "tags": [
+    "carne",
+    "panela-de-pressao",
+    "desfiado"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Patinho em pedaços de 2x2 cm",
+      "quantidade": [
+        {
+          "quantidade": 2.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Tomate pelado",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "lata"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela de pressão, adicionar azeite e grelhar a carne em pedaços.",
+    "Acrescentar cebola, alho, tomate pelado e sal.",
+    "Adicionar água até cobrir a carne. Fechar a panela de pressão.",
+    "Cozinhar por 30 minutos após início da pressão.",
+    "Retirar a pressão e desfiar a carne com garfo ou colher.",
+    "Se a carne ainda estiver dura, adicionar 1 xícara de água e retornar ao cozimento.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 6"
+}

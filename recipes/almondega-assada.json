@@ -1,0 +1,74 @@
+{
+  "titulo": "Almôndega Assada",
+  "porcoes": 6,
+  "tags": [
+    "carne",
+    "almondega",
+    "forno"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Carne moída",
+      "quantidade": [
+        {
+          "quantidade": 1.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Temperar a carne moída com cebola ralada, alho, sal e pimenta-do-reino.",
+    "Misturar bem e moldar em formato de almôndegas (cerca de 80-100 g cada).",
+    "Dispor em marmitas de vidro ou assadeira.",
+    "Levar ao forno a 180 graus por 30-40 minutos.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 17"
+}

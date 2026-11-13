@@ -1,0 +1,75 @@
+{
+  "titulo": "Cenoura com Ervilha",
+  "porcoes": 6,
+  "tags": [
+    "cenoura",
+    "ervilha",
+    "frigideira",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Cenoura em cubos",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Ervilha",
+      "quantidade": [
+        {
+          "quantidade": 300.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma frigideira ou panela, aquecer azeite e grelhar alho e cebola.",
+    "Adicionar a cenoura em cubos e sal. Cozinhar até amaciar.",
+    "Acrescentar a ervilha e misturar bem.",
+    "Cozinhar por mais alguns minutos até tudo ficar macio.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 3"
+}

@@ -1,0 +1,94 @@
+{
+  "titulo": "Grão-de-Bico à Bolonhesa com Cenoura (Vegano)",
+  "porcoes": 13,
+  "tags": [
+    "vegano",
+    "grao-de-bico",
+    "bolonhesa",
+    "cenoura"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Grão-de-bico",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "xícaras"
+        }
+      ]
+    },
+    {
+      "nome": "Cenoura em cubos",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Molho de tomate",
+      "quantidade": [
+        {
+          "quantidade": 400.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Manjericão",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Colocar o grão-de-bico na panela de pressão e cobrir com o dobro de água. Cozinhar por 20 minutos após pressão.",
+    "Em uma panela média, grelhar cebola e alho com azeite. Acrescentar a cenoura em cubos e sal.",
+    "Retirar o grão-de-bico da panela de pressão e acrescentar na panela com a cenoura.",
+    "Adicionar o molho de tomate e um copo de água. Cozinhar até engrossar o molho.",
+    "Finalizar com folhas de manjericão.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 5 (Vegano)"
+}

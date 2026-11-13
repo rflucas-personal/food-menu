@@ -1,0 +1,65 @@
+{
+  "titulo": "Arroz 7 Grãos",
+  "porcoes": 17,
+  "tags": [
+    "arroz",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Arroz 7 grãos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Picar o alho e a cebola.",
+    "Em uma panela, refogar o alho e a cebola no azeite.",
+    "Adicionar cerca de 600g (aprox. 3 xícaras) do arroz 7 grãos e o sal. (Não cozinhe o pacote todo para evitar sobras excessivas).",
+    "Adicionar 3 medidas de água para cada medida de arroz.",
+    "Cozinhar em fogo baixo com a panela semi-tampada até a água secar e o arroz ficar macio (aproximadamente 30-40 minutos).",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "IA"
+}

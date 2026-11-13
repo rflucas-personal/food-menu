@@ -1,0 +1,47 @@
+{
+  "titulo": "Purê de Abóbora",
+  "porcoes": 8,
+  "tags": [
+    "abobora",
+    "pure",
+    "acompanhamento"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Abóbora moranga",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Noz-moscada",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto (opcional)"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar a abóbora e retirar as sementes.",
+    "Cozinhar no micro-ondas por 5-10 minutos ou em panela com água até ficar macia.",
+    "Retirar a casca e amassar com mixer, liquidificador ou garfo até formar um purê cremoso.",
+    "Temperar com sal e noz-moscada a gosto.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 3"
+}

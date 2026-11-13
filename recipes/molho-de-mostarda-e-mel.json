@@ -1,0 +1,64 @@
+{
+  "titulo": "Molho de Mostarda e Mel",
+  "porcoes": 1,
+  "tags": [
+    "molho",
+    "mostarda",
+    "mel"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Mostarda",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Mel",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "colher de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em um recipiente, misturar a mostarda, o mel, o azeite, sal e pimenta-do-reino.",
+    "Mexer bem até ficar homogêneo.",
+    "Utilizar como molho para salada ou para acompanhar carnes.",
+    "Armazenamento: dura 5 dias na geladeira em pote fechado."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 7"
+}

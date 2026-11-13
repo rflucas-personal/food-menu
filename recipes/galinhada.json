@@ -1,0 +1,120 @@
+{
+  "titulo": "Galinhada",
+  "porcoes": 21,
+  "tags": [
+    "frango",
+    "arroz",
+    "panela"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Frango em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Arroz branco",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "xícaras"
+        }
+      ]
+    },
+    {
+      "nome": "Cenoura em cubos",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Vagem",
+      "quantidade": [
+        {
+          "quantidade": 300.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Milho",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "lata"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta calabresa",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela grande, grelhar o frango em cubos com azeite.",
+    "Após grelhar, acrescentar cebola, alho e sal.",
+    "Adicionar milho, cenoura, vagem, limão espremido, pimenta calabresa e 2 xícaras de arroz.",
+    "Misturar bem e acrescentar água até cobrir todos os ingredientes.",
+    "Cozinhar até a água evaporar. Desligar o fogo e manter a panela tampada.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 7"
+}

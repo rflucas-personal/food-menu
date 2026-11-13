@@ -1,0 +1,21 @@
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos locais temporários
+*.log
+.env
+local_test/

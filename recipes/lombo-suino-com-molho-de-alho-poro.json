@@ -1,0 +1,84 @@
+{
+  "titulo": "Lombo Suíno com Molho de Alho-Poró",
+  "porcoes": 11,
+  "tags": [
+    "suino",
+    "lombo",
+    "panela-de-pressao"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Lombo suíno cortado em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Alho-poró",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela de pressão, adicionar azeite e grelhar o lombo suíno em cubos.",
+    "Acrescentar cebola, alho, alho-poró fatiado, sal e pimenta.",
+    "Adicionar água até cobrir a carne. Fechar a panela de pressão.",
+    "Cozinhar por 30 minutos após início da pressão.",
+    "Retirar a pressão e servir com o molho formado.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 4"
+}

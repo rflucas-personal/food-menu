@@ -1,0 +1,832 @@
+[
+  {
+    "refeicao_id": "refeicao_1777221573339",
+    "porcoes_desejadas": 7,
+    "receitas": [
+      {
+        "titulo": "Frango com Molho de Tomate",
+        "tipo": "proteina",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Filé de frango em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.49,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Passata de tomate",
+            "quantidade": [
+              {
+                "quantidade": 175.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 1.4,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela de pressão, adicionar um fio de azeite e grelhar o frango em cubos.",
+          "Adicionar 1 xícara de molho de tomate, 1 limão espremido, 1/3 da cebola em cubos, 1/3 do alho em cubos, 1 colher e meia de sal.",
+          "Acrescentar água até cobrir o frango. Fechar a tampa da panela de pressão.",
+          "Contar 15 minutos a partir do momento que iniciar a pressão da panela.",
+          "Retirar a pressão da panela. Descartar o excesso de água. Desfiado é opcional.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      },
+      {
+        "titulo": "Arroz 7 Grãos",
+        "tipo": "acompanhamento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Arroz 7 grãos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 1.05,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola",
+            "quantidade": [
+              {
+                "quantidade": 0.17,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Picar o alho e a cebola.",
+          "Em uma panela, refogar o alho e a cebola no azeite.",
+          "Adicionar cerca de 600g (aprox. 3 xícaras) do arroz 7 grãos e o sal. (Não cozinhe o pacote todo para evitar sobras excessivas).",
+          "Adicionar 3 medidas de água para cada medida de arroz.",
+          "Cozinhar em fogo baixo com a panela semi-tampada até a água secar e o arroz ficar macio (aproximadamente 30-40 minutos).",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "IA"
+      },
+      {
+        "titulo": "Cenoura com Ervilha",
+        "tipo": "complemento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Cenoura em cubos",
+            "quantidade": [
+              {
+                "quantidade": 1.05,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Ervilha",
+            "quantidade": [
+              {
+                "quantidade": 105.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 0.7,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola",
+            "quantidade": [
+              {
+                "quantidade": 0.17,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma frigideira ou panela, aquecer azeite e grelhar alho e cebola.",
+          "Adicionar a cenoura em cubos e sal. Cozinhar até amaciar.",
+          "Acrescentar a ervilha e misturar bem.",
+          "Cozinhar por mais alguns minutos até tudo ficar macio.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 3"
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1777221646560",
+    "porcoes_desejadas": 7,
+    "receitas": [
+      {
+        "titulo": "Parmegiana de Frango",
+        "tipo": "proteina",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Filés de frango (120 g cada)",
+            "quantidade": [
+              {
+                "quantidade": 3.5,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Aveia em flocos finos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "xícara"
+              }
+            ]
+          },
+          {
+            "nome": "Queijo muçarela",
+            "quantidade": [
+              {
+                "quantidade": 3.5,
+                "unidade_de_medida": "fatias"
+              }
+            ]
+          },
+          {
+            "nome": "Extrato de tomate",
+            "quantidade": [
+              {
+                "quantidade": 210.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 0.7,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Páprica picante",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Orégano",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "colher de sopa rasa"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Temperar os filés com limão espremido, azeite, sal, páprica picante e pimenta-do-reino.",
+          "Empanar na aveia em flocos e dispor em assadeira untada com azeite.",
+          "Levar ao forno pré-aquecido a 180 graus por 30 minutos.",
+          "Retirar do forno, acrescentar extrato de tomate, queijo muçarela e orégano por cima.",
+          "Retornar ao forno por mais 10 minutos até o queijo derreter.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 13"
+      },
+      {
+        "titulo": "Arroz 7 Grãos",
+        "tipo": "acompanhamento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Arroz 7 grãos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 1.05,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola",
+            "quantidade": [
+              {
+                "quantidade": 0.17,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Picar o alho e a cebola.",
+          "Em uma panela, refogar o alho e a cebola no azeite.",
+          "Adicionar cerca de 600g (aprox. 3 xícaras) do arroz 7 grãos e o sal. (Não cozinhe o pacote todo para evitar sobras excessivas).",
+          "Adicionar 3 medidas de água para cada medida de arroz.",
+          "Cozinhar em fogo baixo com a panela semi-tampada até a água secar e o arroz ficar macio (aproximadamente 30-40 minutos).",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "IA"
+      },
+      {
+        "titulo": "Seleta de Legumes Assados",
+        "tipo": "complemento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Seleta de legumes",
+            "quantidade": [
+              {
+                "quantidade": 0.77,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Temperos a gosto",
+            "quantidade": []
+          }
+        ],
+        "modo_de_preparo": [
+          "Dispor os legumes (podem ser congelados) em uma travessa e separar os blocos maiores.",
+          "Acrescentar azeite, sal e temperos a gosto.",
+          "Levar ao forno por 20-25 minutos.",
+          "Dica: é possível grelhar os legumes na panela. Grelhar ainda congelados e acrescentar água à medida que grudarem no fundo.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 15"
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1777221712770",
+    "porcoes_desejadas": 7,
+    "receitas": [
+      {
+        "titulo": "Frango com Molho de Tomate",
+        "tipo": "proteina",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Filé de frango em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.49,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Passata de tomate",
+            "quantidade": [
+              {
+                "quantidade": 175.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola em cubos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 1.4,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma panela de pressão, adicionar um fio de azeite e grelhar o frango em cubos.",
+          "Adicionar 1 xícara de molho de tomate, 1 limão espremido, 1/3 da cebola em cubos, 1/3 do alho em cubos, 1 colher e meia de sal.",
+          "Acrescentar água até cobrir o frango. Fechar a tampa da panela de pressão.",
+          "Contar 15 minutos a partir do momento que iniciar a pressão da panela.",
+          "Retirar a pressão da panela. Descartar o excesso de água. Desfiado é opcional.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      },
+      {
+        "titulo": "Purê de Batata Doce",
+        "tipo": "acompanhamento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Batata doce",
+            "quantidade": [
+              {
+                "quantidade": 0.42,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Noz-moscada",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto (opcional)"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Descascar a batata doce e cortar em cubos.",
+          "Cozinhar em uma panela média com água e sal até ficar macia.",
+          "Bater com mixer ou liquidificador usando a própria água do cozimento até formar um purê cremoso.",
+          "Se necessário, acrescentar mais água aos poucos para atingir a textura desejada.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      },
+      {
+        "titulo": "Cenoura com Ervilha",
+        "tipo": "complemento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Cenoura em cubos",
+            "quantidade": [
+              {
+                "quantidade": 1.05,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Ervilha",
+            "quantidade": [
+              {
+                "quantidade": 105.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Alho",
+            "quantidade": [
+              {
+                "quantidade": 0.7,
+                "unidade_de_medida": "dentes"
+              }
+            ]
+          },
+          {
+            "nome": "Cebola",
+            "quantidade": [
+              {
+                "quantidade": 0.17,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Em uma frigideira ou panela, aquecer azeite e grelhar alho e cebola.",
+          "Adicionar a cenoura em cubos e sal. Cozinhar até amaciar.",
+          "Acrescentar a ervilha e misturar bem.",
+          "Cozinhar por mais alguns minutos até tudo ficar macio.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 3"
+      }
+    ]
+  },
+  {
+    "refeicao_id": "refeicao_1777221729906",
+    "porcoes_desejadas": 7,
+    "receitas": [
+      {
+        "titulo": "Parmegiana de Frango",
+        "tipo": "proteina",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Filés de frango (120 g cada)",
+            "quantidade": [
+              {
+                "quantidade": 3.5,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Aveia em flocos finos",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "xícara"
+              }
+            ]
+          },
+          {
+            "nome": "Queijo muçarela",
+            "quantidade": [
+              {
+                "quantidade": 3.5,
+                "unidade_de_medida": "fatias"
+              }
+            ]
+          },
+          {
+            "nome": "Extrato de tomate",
+            "quantidade": [
+              {
+                "quantidade": 210.0,
+                "unidade_de_medida": "g"
+              }
+            ]
+          },
+          {
+            "nome": "Limão",
+            "quantidade": [
+              {
+                "quantidade": 0.7,
+                "unidade_de_medida": "un"
+              }
+            ]
+          },
+          {
+            "nome": "Páprica picante",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Pimenta-do-reino",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Orégano",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.35,
+                "unidade_de_medida": "colher de sopa rasa"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Temperar os filés com limão espremido, azeite, sal, páprica picante e pimenta-do-reino.",
+          "Empanar na aveia em flocos e dispor em assadeira untada com azeite.",
+          "Levar ao forno pré-aquecido a 180 graus por 30 minutos.",
+          "Retirar do forno, acrescentar extrato de tomate, queijo muçarela e orégano por cima.",
+          "Retornar ao forno por mais 10 minutos até o queijo derreter.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 13"
+      },
+      {
+        "titulo": "Purê de Batata Doce",
+        "tipo": "acompanhamento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Batata doce",
+            "quantidade": [
+              {
+                "quantidade": 0.42,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Noz-moscada",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto (opcional)"
+              }
+            ]
+          }
+        ],
+        "modo_de_preparo": [
+          "Descascar a batata doce e cortar em cubos.",
+          "Cozinhar em uma panela média com água e sal até ficar macia.",
+          "Bater com mixer ou liquidificador usando a própria água do cozimento até formar um purê cremoso.",
+          "Se necessário, acrescentar mais água aos poucos para atingir a textura desejada.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 1"
+      },
+      {
+        "titulo": "Seleta de Legumes Assados",
+        "tipo": "complemento",
+        "porcoes": 7,
+        "ingredientes": [
+          {
+            "nome": "Seleta de legumes",
+            "quantidade": [
+              {
+                "quantidade": 0.77,
+                "unidade_de_medida": "kg"
+              }
+            ]
+          },
+          {
+            "nome": "Azeite",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Sal",
+            "quantidade": [
+              {
+                "quantidade": 0.0,
+                "unidade_de_medida": "a gosto"
+              }
+            ]
+          },
+          {
+            "nome": "Temperos a gosto",
+            "quantidade": []
+          }
+        ],
+        "modo_de_preparo": [
+          "Dispor os legumes (podem ser congelados) em uma travessa e separar os blocos maiores.",
+          "Acrescentar azeite, sal e temperos a gosto.",
+          "Levar ao forno por 20-25 minutos.",
+          "Dica: é possível grelhar os legumes na panela. Grelhar ainda congelados e acrescentar água à medida que grudarem no fundo.",
+          "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+        ],
+        "fonte": "Marmitas da Semana - Cardápio 15"
+      }
+    ]
+  }
+]

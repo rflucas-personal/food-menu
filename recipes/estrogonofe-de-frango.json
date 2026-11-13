@@ -1,0 +1,93 @@
+{
+  "titulo": "Estrogonofe de Frango",
+  "porcoes": 11,
+  "tags": [
+    "frango",
+    "strogonoff",
+    "panela"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Peito de frango em tirinhas ou cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.4,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Extrato de tomate",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Creme de ricota",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Leite",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "xícaras"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma frigideira/panela grande, aquecer azeite e grelhar o frango.",
+    "Acrescentar cebola e alho. Grelhar bem.",
+    "Adicionar o extrato de tomate e misturar.",
+    "Acrescentar o creme de ricota e o leite. Mexer até homogeneizar.",
+    "Cozinhar em fogo baixo até o molho engrossar.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 12 (Adaptado)"
+}

@@ -1,0 +1,55 @@
+{
+  "titulo": "Arroz Branco",
+  "porcoes": 12,
+  "tags": [
+    "arroz",
+    "acompanhamento",
+    "panela"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Arroz branco",
+      "quantidade": [
+        {
+          "quantidade": 700.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Óleo ou Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela, aquecer o óleo e refogar o alho picado.",
+    "Adicionar o arroz e refogar por alguns minutos.",
+    "Acrescentar a água quente (o dobro da medida do arroz) e o sal.",
+    "Cozinhar em fogo baixo com a panela semitampada até secar a água.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer."
+  ]
+}

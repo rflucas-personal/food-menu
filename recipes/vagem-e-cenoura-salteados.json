@@ -1,0 +1,66 @@
+{
+  "titulo": "Vagem e Cenoura Salteados",
+  "porcoes": 4,
+  "tags": [
+    "vagem",
+    "cenoura",
+    "frigideira",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Vagem",
+      "quantidade": [
+        {
+          "quantidade": 300.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cenoura em cubos",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar a vagem em pedaços e a cenoura em cubos ou rodelas.",
+    "Em uma frigideira, aquecer azeite e grelhar o alho.",
+    "Adicionar a vagem e a cenoura, temperar com sal.",
+    "Saltear em fogo médio-alto até ficarem macios, mas ainda firmes.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 6"
+}

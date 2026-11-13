@@ -1,0 +1,66 @@
+{
+  "titulo": "Purê de Banana-da-Terra",
+  "porcoes": 8,
+  "tags": [
+    "banana-da-terra",
+    "pure",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Banana-da-terra em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.4,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Alho em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher rasa"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela grande, grelhar alho em cubos com azeite.",
+    "Adicionar a banana-da-terra em cubos.",
+    "Acrescentar 3 xícaras de água, sal e pimenta-do-reino. Tampar a panela.",
+    "Cozinhar em fogo médio até a banana ficar macia.",
+    "Usar mixer ou garfo para preparar o purê. Adicionar água aos poucos para a textura desejada.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 11"
+}

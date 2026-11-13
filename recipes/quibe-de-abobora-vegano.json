@@ -1,0 +1,87 @@
+{
+  "titulo": "Quibe de Abóbora com Cebola Caramelizada (Vegano)",
+  "porcoes": 14,
+  "tags": [
+    "vegano",
+    "abobora",
+    "quibe",
+    "forno"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Abóbora moranga",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Quinoa branca ou tricolor",
+      "quantidade": [
+        {
+          "quantidade": 500.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola roxa",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Hortelã",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Retirar as sementes da abóbora e levar inteira ao micro-ondas por 30 minutos ou até cozinhar.",
+    "Cozinhar a quinoa com o dobro de água em fogo baixo. Quando secar, tampar e desligar.",
+    "Para a cebola caramelizada: cortar a cebola roxa em rodelas finas, grelhar com azeite e sal em fogo baixo, tampada, mexendo quando grudar, até derreter.",
+    "Descascar a abóbora e amassar formando um purê. Misturar com a quinoa cozida.",
+    "Adicionar hortelã, sal, azeite e pimenta-do-reino.",
+    "Untar uma forma com azeite, colocar metade da massa, rechear com a cebola caramelizada, cobrir com o restante.",
+    "Cortar em formato de quibe. Levar ao forno a 200 graus por 10 minutos.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 5 (Vegano)"
+}

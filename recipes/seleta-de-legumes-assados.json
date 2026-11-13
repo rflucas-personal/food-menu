@@ -1,0 +1,51 @@
+{
+  "titulo": "Seleta de Legumes Assados",
+  "porcoes": 15,
+  "tags": [
+    "legumes",
+    "forno",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Seleta de legumes",
+      "quantidade": [
+        {
+          "quantidade": 2.2,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Temperos a gosto",
+      "quantidade": []
+    }
+  ],
+  "modo_de_preparo": [
+    "Dispor os legumes (podem ser congelados) em uma travessa e separar os blocos maiores.",
+    "Acrescentar azeite, sal e temperos a gosto.",
+    "Levar ao forno por 20-25 minutos.",
+    "Dica: é possível grelhar os legumes na panela. Grelhar ainda congelados e acrescentar água à medida que grudarem no fundo.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 15"
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "Pene - Macarrão",
+  "porcoes": 3,
+  "tags": [],
+  "tipo": "acompanhamento",
+  "fonte": "",
+  "ingredientes": [
+    {
+      "nome": "Macarrão Pene",
+      "quantidade": [
+        {
+          "quantidade": 200,
+          "unidade_de_medida": "g"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Preparar o macarrão normalmente. Para congelamento, pode deixar ele um pouco mais ao dente."
+  ]
+}

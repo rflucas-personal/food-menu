@@ -1,0 +1,120 @@
+{
+  "titulo": "Sobrecoxa com Mostarda e Mel",
+  "porcoes": 13,
+  "tags": [
+    "frango",
+    "sobrecoxa",
+    "forno",
+    "mostarda",
+    "mel"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Sobrecoxas de frango",
+      "quantidade": [
+        {
+          "quantidade": 14.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Mostarda",
+      "quantidade": [
+        {
+          "quantidade": 0.75,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Mel",
+      "quantidade": [
+        {
+          "quantidade": 6.0,
+          "unidade_de_medida": "colheres de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Coco aminos",
+      "quantidade": [
+        {
+          "quantidade": 6.0,
+          "unidade_de_medida": "colheres de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Vinagre",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "colheres de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 3.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Alecrim",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Páprica picante",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "colheres de sopa rasas"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Temperar as sobrecoxas com limão, alho, sal, mostarda, vinagre, coco aminos, alecrim e páprica picante. Misturar bem.",
+    "Colocar em uma travessa, acrescentando o molho do tempero.",
+    "Levar ao forno (sem papel alumínio) por 45 minutos a 180-200 graus.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 10"
+}

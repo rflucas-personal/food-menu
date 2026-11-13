@@ -1,0 +1,66 @@
+{
+  "titulo": "Brócolis com Tomate",
+  "porcoes": 5,
+  "tags": [
+    "brocolis",
+    "tomate",
+    "frigideira",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Brócolis",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un (500 g)"
+        }
+      ]
+    },
+    {
+      "nome": "Tomate em cubos",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar o brócolis em floretes.",
+    "Em uma frigideira, aquecer azeite e grelhar o alho.",
+    "Adicionar o brócolis e o tomate em cubos.",
+    "Temperar com sal e cozinhar em fogo médio até o brócolis ficar macio.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 4"
+}

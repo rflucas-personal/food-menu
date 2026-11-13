@@ -1,0 +1,66 @@
+{
+  "titulo": "Quibe de Quinoa",
+  "porcoes": 15,
+  "tags": [
+    "carne",
+    "quinoa",
+    "forno"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Patinho moído",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Quinoa branca ou tricolor",
+      "quantidade": [
+        {
+          "quantidade": 400.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Cozinhar a quinoa: grelhar com azeite, adicionar 1,5x de água e sal. Tampar e cozinhar em fogo baixo até secar. Lavar a quinoa antes do preparo.",
+    "Retirar a quinoa da panela e misturar com a carne moída. Acrescentar sal a gosto.",
+    "Untar a forma com azeite, colocar a mistura e espalhar uniformemente.",
+    "Fazer o corte no quibe com espátula ou faca.",
+    "Levar ao forno a 200 graus por 30 minutos.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 7"
+}

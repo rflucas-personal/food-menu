@@ -1,0 +1,65 @@
+{
+  "titulo": "Vagem Refogada",
+  "porcoes": 4,
+  "tags": [
+    "vagem",
+    "frigideira",
+    "acompanhamento"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Vagem cortada em cubos",
+      "quantidade": [
+        {
+          "quantidade": 600.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Alho em cubos",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "colher de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Orégano",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "colher"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela pequena, aquecer azeite e grelhar o alho.",
+    "Adicionar a vagem e misturar bem para grelhar.",
+    "Temperar com sal e orégano.",
+    "Adicionar 1/2 xícara de água e cozinhar até a vagem ficar macia.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 11"
+}

@@ -1,0 +1,38 @@
+{
+  "titulo": "Purê de Grão-de-Bico",
+  "porcoes": 17,
+  "tags": [
+    "grao-de-bico",
+    "pure",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Grão-de-bico",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0.5,
+          "unidade_de_medida": "colher de sopa"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Colocar o grão-de-bico em uma panela grande e cobrir com água. Não adicionar sal neste momento (interfere no cozimento).",
+    "Cozinhar até o grão-de-bico ficar macio.",
+    "Adicionar sal e bater com a água que sobrou no fundo da panela até ter consistência de purê.",
+    "Se necessário, adicionar água para textura mais homogênea.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 13"
+}

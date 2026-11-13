@@ -1,0 +1,69 @@
+{
+  "titulo": "Sobrecoxa de Frango Assada",
+  "porcoes": 15,
+  "tags": [
+    "frango",
+    "sobrecoxa",
+    "forno"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Sobrecoxas de frango",
+      "quantidade": [
+        {
+          "quantidade": 20.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Limão",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "colher de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Temperos a gosto",
+      "quantidade": []
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma travessa, dispor as sobrecoxas.",
+    "Temperar com azeite, limão, sal e demais temperos a gosto. Misturar bem.",
+    "Levar ao forno pré-aquecido a 180 graus por 30 minutos.",
+    "Dica: pode variar com molhos como molho de tomate, mostarda e outros.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 15"
+}

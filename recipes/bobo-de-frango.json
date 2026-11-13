@@ -1,0 +1,112 @@
+{
+  "titulo": "Bobó de Frango",
+  "porcoes": 16,
+  "tags": [
+    "frango",
+    "mandioca",
+    "panela"
+  ],
+  "tipo": "proteina",
+  "ingredientes": [
+    {
+      "nome": "Frango em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.5,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Mandioca em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Passata de tomate",
+      "quantidade": [
+        {
+          "quantidade": 300.0,
+          "unidade_de_medida": "g"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Pimentão",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Coentro",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Páprica picante",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Em uma panela grande, adicionar azeite e grelhar o frango em cubos.",
+    "Acrescentar sal, cebola, alho e pimentão em cubos. Grelhar bem.",
+    "Adicionar a passata de tomate e a mesma medida de água, deixar cozinhar.",
+    "Em outra panela, cozinhar a mandioca em cubos com água e sal até ficar macia.",
+    "Bater a mandioca com a água do cozimento usando mixer ou liquidificador.",
+    "Adicionar a mistura de mandioca na panela do frango. Finalizar com coentro.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 8"
+}

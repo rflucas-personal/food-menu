@@ -1,0 +1,79 @@
+{
+  "titulo": "Legumes Assados",
+  "porcoes": 25,
+  "tags": [
+    "legumes",
+    "forno",
+    "vegetais"
+  ],
+  "tipo": "complemento",
+  "ingredientes": [
+    {
+      "nome": "Cenoura",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Abóbora em cubos",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola roxa",
+      "quantidade": [
+        {
+          "quantidade": 4.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Tomate italiano",
+      "quantidade": [
+        {
+          "quantidade": 8.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Chimichurri ou temperos a gosto",
+      "quantidade": []
+    }
+  ],
+  "modo_de_preparo": [
+    "Cortar todos os legumes em cubos ou fatias uniformes.",
+    "Dispor em uma travessa/assadeira.",
+    "Regar com azeite e temperar com sal e chimichurri (ou temperos a gosto).",
+    "Levar ao forno a 200 graus por 40 minutos.",
+    "Não é necessário utilizar papel alumínio.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 1"
+}

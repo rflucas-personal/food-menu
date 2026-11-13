@@ -1,0 +1,47 @@
+{
+  "titulo": "Purê de Cenoura",
+  "porcoes": 6,
+  "tags": [
+    "cenoura",
+    "pure",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Cenoura",
+      "quantidade": [
+        {
+          "quantidade": 8.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Noz-moscada",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Descascar e cortar as cenouras em rodelas.",
+    "Cozinhar em panela com água e sal até ficarem macias.",
+    "Bater com mixer ou liquidificador usando a água do cozimento.",
+    "Temperar com noz-moscada.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 12"
+}

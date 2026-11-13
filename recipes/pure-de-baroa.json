@@ -1,0 +1,47 @@
+{
+  "titulo": "Purê de Baroa",
+  "porcoes": 9,
+  "tags": [
+    "baroa",
+    "pure",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Batata baroa (mandioquinha)",
+      "quantidade": [
+        {
+          "quantidade": 1.6,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Noz-moscada",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Descascar e cortar a baroa em cubos.",
+    "Cozinhar em panela média com água e sal até ficar macia.",
+    "Adicionar noz-moscada e bater com mixer, liquidificador ou amassar com garfo.",
+    "Usar a própria água do cozimento para ajustar a textura. Se necessário, acrescentar mais água.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 6"
+}

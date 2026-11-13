@@ -1,0 +1,66 @@
+{
+  "titulo": "Arroz Branco com Lentilha",
+  "porcoes": 16,
+  "tags": [
+    "arroz",
+    "lentilha",
+    "acompanhamento"
+  ],
+  "tipo": "acompanhamento",
+  "ingredientes": [
+    {
+      "nome": "Arroz branco",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "xícaras (400 g)"
+        }
+      ]
+    },
+    {
+      "nome": "Lentilha",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "xícara"
+        }
+      ]
+    },
+    {
+      "nome": "Alho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "dentes"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Lavar o arroz e a lentilha separadamente.",
+    "Em uma panela média, aquecer azeite e grelhar o alho.",
+    "Adicionar o arroz e a lentilha, mexer para envolver no azeite.",
+    "Acrescentar 5 xícaras de água e sal.",
+    "Cozinhar em fogo baixo até secar a água. Tampar e desligar o fogo.",
+    "Armazenamento: dura 3 dias na geladeira ou 30 no freezer, potes de 300 g."
+  ],
+  "fonte": "Marmitas da Semana - Cardápio 4"
+}
