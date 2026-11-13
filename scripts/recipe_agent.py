@@ -149,18 +149,24 @@ def call_gemini_sdk(api_key: str, text: str, image_urls: list[str]) -> dict:
         response_json_schema=RECIPE_JSON_SCHEMA,
     )
 
-    response = client.models.generate_content(
-        model='gemini-2.5-flash',
-        contents=contents,
-        config=config
-    )
-    return json.loads(response.text)
+    last_error = None
+    for model_name in ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash']:
+        try:
+            print(f"🔄 Tentando modelo {model_name} via SDK...")
+            response = client.models.generate_content(
+                model=model_name,
+                contents=contents,
+                config=config
+            )
+            return json.loads(response.text)
+        except Exception as e:
+            print(f"⚠️ Falha no modelo {model_name} via SDK: {e}")
+            last_error = e
+
+    return None
 
 def call_gemini_rest(api_key: str, text: str, image_urls: list[str]) -> dict:
-    """Chama a API REST do Gemini 2.5 Flash."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
-    headers = {"Content-Type": "application/json"}
-    
+    """Chama a API REST do Gemini com fallback entre versões estáveis de Flash."""
     parts = []
     
     for img_url in image_urls[:3]:
@@ -189,11 +195,27 @@ def call_gemini_rest(api_key: str, text: str, image_urls: list[str]) -> dict:
         }
     }
 
-    req = urllib.request.Request(url, data=json.dumps(payload).encode('utf-8'), headers=headers)
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        result = json.loads(resp.read().decode('utf-8'))
-        content = result['candidates'][0]['content']['parts'][0]['text']
-        return json.loads(content)
+    last_err = None
+    for model_name in ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash']:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
+        headers = {"Content-Type": "application/json"}
+        req = urllib.request.Request(url, data=json.dumps(payload).encode('utf-8'), headers=headers)
+        try:
+            print(f"🔄 Tentando modelo {model_name} via REST...")
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                result = json.loads(resp.read().decode('utf-8'))
+                content = result['candidates'][0]['content']['parts'][0]['text']
+                return json.loads(content)
+        except urllib.error.HTTPError as e:
+            err_body = e.read().decode('utf-8')
+            print(f"⚠️ Erro HTTP no modelo {model_name}: {e.code} - {err_body[:200]}")
+            last_err = e
+        except Exception as e:
+            print(f"⚠️ Erro no modelo {model_name}: {e}")
+            last_err = e
+
+    if last_err:
+        raise last_err
 
 def call_openai_compatible(api_key: str, base_url: str, model: str, text: str) -> dict:
     url = f"{base_url.rstrip('/')}/chat/completions"
