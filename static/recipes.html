@@ -17,7 +17,7 @@
         </div>
     </nav>
 
-    <div class="container" style="max-width: 1400px; display: grid; grid-template-columns: 350px 1fr; gap: 2rem;">
+    <div class="container recipes-layout">
         
         <!-- Sidebar: Lista de Receitas -->
         <aside class="recipes-sidebar glass-panel">
@@ -44,7 +44,7 @@
             <form id="recipe-form" class="hidden">
                 <input type="hidden" id="recipe-id">
                 
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
+                <div class="form-row-2col">
                     <div class="form-group">
                         <label for="titulo">Título da Receita</label>
                         <input type="text" id="titulo" required>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
 
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
+                <div class="form-row-2col">
                     <div class="form-group">
                         <label for="tags">Tags (separadas por vírgula)</label>
                         <input type="text" id="tags" placeholder="ex: frango, forno, saúdavel">

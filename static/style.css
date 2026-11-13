@@ -612,7 +612,27 @@ button:disabled {
     border-bottom-color: var(--accent-color);
 }
 
-/* Recipe Editor */
+/* Recipe Editor Layout */
+.recipes-layout {
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 2rem;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .recipes-layout {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .recipes-sidebar {
+        height: auto;
+        position: static;
+        max-height: 380px;
+    }
+}
+
 .recipes-sidebar {
     height: calc(100vh - 120px);
     position: sticky;
@@ -630,6 +650,21 @@ button:disabled {
 .recipe-editor .form-group input[type="number"],
 .recipe-editor .form-group select {
     width: 100%;
+}
+
+.form-row-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+    .form-row-2col {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 .hidden {
