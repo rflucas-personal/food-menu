@@ -223,9 +223,45 @@ python3 -m http.server 8000 --directory static
 # Acesse http://localhost:8000/index.html
 ```
 
-### Deploy no Google Pages
+### Deploy no GitHub Pages (recomendado)
 
-O projeto está pronto para deploy no **Google Pages** (ou GitHub Pages, Netlify, Vercel, etc.) por ser 100% estático:
+Por ser 100% estático, o projeto está pronto para o **GitHub Pages**. Um workflow automático já está configurado em `.github/workflows/pages.yml` que faz o deploy da pasta `static/` a cada push na `main`.
+
+#### 1. Habilitar o GitHub Pages no repositório
+
+Acesse: https://github.com/rflucas-personal/food-menu/settings/pages
+
+- **Build and deployment → Source**: selecione **GitHub Actions**
+- Salve as alterações
+
+#### 2. Fazer push
+
+O workflow será disparado automaticamente no próximo push para `main`:
+
+```bash
+git push origin main
+```
+
+#### 3. Acessar o site
+
+Após o deploy (verifique na aba **Actions**), o site ficará disponível em:
+
+```
+https://rflucas-personal.github.io/food-menu/
+```
+
+O `print.html` aceita um parâmetro URL `?file=<url-do-cardapio-json>` para visualizar/imprimir um cardápio específico.
+
+Exemplo:
+```
+https://rflucas-personal.github.io/food-menu/print.html?file=https://raw.githubusercontent.com/rflucas-personal/food-menu/main/cardapios/cardapio_20261120_120000.json
+```
+
+---
+
+### Deploy no Google Pages (alternativa)
+
+Como é 100% estático, também funciona no Google Pages:
 
 1. Faça push do código para o GitHub
 2. Configure o Google Pages para servir a pasta `static/`
