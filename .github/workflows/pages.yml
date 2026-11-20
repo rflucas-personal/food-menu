@@ -27,8 +27,11 @@ jobs:
       - name: ⚙️ Configurar Pages
         uses: actions/configure-pages@v5
         with:
-          # Servir a pasta static/ como raiz do site
+          # Servir a pasta static/ como raiz do site (sem gerador de site estático)
           static_site_generator: none
+          # Habilita o GitHub Pages automaticamente (source: GitHub Actions)
+          # na primeira execução, caso ainda não esteja habilitado.
+          enablement: true
 
       - name: 📦 Fazer upload do artefato (pasta static/)
         uses: actions/upload-pages-artifact@v3
