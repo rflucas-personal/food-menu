@@ -1,3 +1,10 @@
+// Configuração do GitHub para receitas estáticas
+const GITHUB_OWNER = 'rflucas-personal';
+const GITHUB_REPO = 'food-menu';
+const GITHUB_BRANCH = 'main';
+const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}`;
+const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}`;
+
 let allRecipes = [];
 let currentRecipeId = null;
 
@@ -13,11 +20,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function loadRecipes() {
     const listEl = document.getElementById('recipes-list');
-    listEl.innerHTML = '<li class="loading-text">Carregando receitas...</li>';
+    listEl.innerHTML = '<li class="loading-text">Carregando receitas do GitHub...</li>';
 
     try {
-        const response = await fetch('/api/recipes');
-        allRecipes = await response.json();
+        // Lista arquivos na pasta recipes/ via GitHub API
+        const response = await fetch(`${GITHUB_API_BASE}/contents/recipes`);
+        
+        if (!response.ok) {
+            throw new Error(`GitHub API returned ${response.status}`);
+        }
+        
+        const files = await response.json();
+        const jsonFiles = files.filter(f => f.name.endsWith('.json') && f.type === 'file');
+        
+        // Baixar cada receita via raw URL
+        allRecipes = [];
+        for (const file of jsonFiles) {
+            try {
+                const rawResponse = await fetch(`${GITHUB_RAW_BASE}/recipes/${file.name}`);
+                if (rawResponse.ok) {
+                    const recipeData = await rawResponse.json();
+                    allRecipes.push({
+                        id: file.name,
+                        ...recipeData
+                    });
+                }
+            } catch (err) {
+                console.warn(`Falha ao baixar ${file.name}:`, err);
+            }
+        }
         
         // Ordenar alfabeticamente
         allRecipes.sort((a, b) => a.titulo.localeCompare(b.titulo));
@@ -25,7 +56,7 @@ async function loadRecipes() {
         
     } catch (error) {
         console.error('Error:', error);
-        listEl.innerHTML = '<li style="color:var(--danger-color)">Erro ao carregar receitas.</li>';
+        listEl.innerHTML = '<li style="color:var(--danger-color)">Erro ao carregar receitas do GitHub.</li>';
     }
 }
 
@@ -73,10 +104,14 @@ async function loadRecipeToForm(id) {
     form.classList.remove('hidden');
 
     try {
-        const response = await fetch(`/api/recipes/${id}`);
+        // Buscar receita via GitHub Raw
+        const response = await fetch(`${GITHUB_RAW_BASE}/recipes/${id}`);
+        
+        if (!response.ok) {
+            throw new Error(`Receita não encontrada: ${response.status}`);
+        }
+        
         const recipe = await response.json();
-
-        if (recipe.error) throw new Error(recipe.error);
 
         // Preencher básicos
         document.getElementById('recipe-id').value = id;
@@ -220,7 +255,6 @@ async function saveRecipe(e) {
             const inputQtd = row.querySelector('.ing-qtd');
             if(inputQtd) {
                 let val = inputQtd.value;
-                // If input type is number or it's a numeric string, parse it.
                 if (inputQtd.type === 'number' || !isNaN(val)) {
                     val = parseFloat(val);
                 }
@@ -241,28 +275,26 @@ async function saveRecipe(e) {
         }
     });
 
-    // Send to API
+    // Enviar para GitHub via API (requer GITHUB_TOKEN configurado no navegador ou usar issues)
     try {
-        const url = id ? `/api/recipes/${id}` : `/api/recipes`;
-        const method = id ? 'PUT' : 'POST';
-
-        const response = await fetch(url, {
-            method: method,
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload)
-        });
-
-        const result = await response.json();
+        // Como é frontend estático sem backend, não podemos fazer PUT diretamente
+        // sem expor o token. Sugerimos usar o fluxo de Issue + GitHub Actions.
+        showToast('Atenção', 'Para salvar receitas, abra uma Issue no GitHub com o template "Nova Receita". O agente de IA processará e commitará automaticamente.', true);
         
-        if (result.error) throw new Error(result.error);
-
-        showToast('Sucesso', 'Receita salva com sucesso!');
-        currentRecipeId = result.id;
-        document.getElementById('recipe-id').value = result.id;
+        // Abrir a página de nova issue do GitHub
+        const issueTitle = encodeURIComponent('[Receita]: ' + payload.titulo);
+        const issueBody = encodeURIComponent(
+            '#### Ingredientes:\n' +
+            payload.ingredientes.map(ing => '- ' + ing.quantidade.map(q => q.quantidade + ' ' + q.unidade_de_medida).join(' + ') + ' ' + ing.nome).join('\n') +
+            '\n\n#### Modo de Preparo:\n' +
+            payload.modo_de_preparo.map((step, i) => (i+1) + '. ' + step).join('\n') +
+            '\n\n**Título sugerido:** ' + payload.titulo +
+            '\n**Tipo:** ' + payload.tipo +
+            '\n**Tags:** ' + payload.tags.join(', ') +
+            '\n**Porções:** ' + payload.porcoes
+        );
+        window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?title=${issueTitle}&body=${issueBody}`, '_blank');
         
-        // Reload list
-        await loadRecipes();
-
     } catch (error) {
         console.error('Error saving:', error);
         showToast('Erro', error.message, true);

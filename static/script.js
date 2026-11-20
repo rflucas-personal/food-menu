@@ -1,3 +1,10 @@
+// Configuração do GitHub para receitas estáticas
+const GITHUB_OWNER = 'rflucas-personal';
+const GITHUB_REPO = 'food-menu';
+const GITHUB_BRANCH = 'main';
+const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}`;
+const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}`;
+
 let allRecipes = [];
 let groupedRecipes = {
     proteina: [],
@@ -19,8 +26,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchRecipes() {
     try {
-        const response = await fetch('/api/recipes');
-        allRecipes = await response.json();
+        // Lista arquivos na pasta recipes/ via GitHub API
+        const response = await fetch(`${GITHUB_API_BASE}/contents/recipes`);
+        
+        if (!response.ok) {
+            throw new Error(`GitHub API returned ${response.status}`);
+        }
+        
+        const files = await response.json();
+        
+        // Filtrar apenas arquivos .json
+        const jsonFiles = files.filter(f => f.name.endsWith('.json') && f.type === 'file');
+        
+        // Baixar cada receita via raw URL
+        allRecipes = [];
+        for (const file of jsonFiles) {
+            try {
+                const rawResponse = await fetch(`${GITHUB_RAW_BASE}/recipes/${file.name}`);
+                if (rawResponse.ok) {
+                    const recipeData = await rawResponse.json();
+                    allRecipes.push({
+                        id: file.name,
+                        ...recipeData
+                    });
+                }
+            } catch (err) {
+                console.warn(`Falha ao baixar ${file.name}:`, err);
+            }
+        }
         
         // Group by tipo
         allRecipes.forEach(recipe => {
@@ -30,9 +63,10 @@ async function fetchRecipes() {
         });
         
         populateSelectors();
+        
     } catch (error) {
         console.error('Failed to fetch recipes:', error);
-        showToast('Erro', 'Não foi possível carregar as receitas.', true);
+        showToast('Erro', 'Não foi possível carregar as receitas do GitHub.', true);
     }
 }
 
@@ -188,29 +222,102 @@ async function generateCardapio() {
     btn.textContent = 'Gerando...';
     
     try {
-        const response = await fetch('/api/generate', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ refeicoes: meals })
-        });
+        const refeicoes = meals.map(meal => ({
+            id: meal.id,
+            porcoes: meal.porcoes,
+            receitas: meal.receitas.map(r => ({ file_id: r.file_id }))
+        }));
         
-        const result = await response.json();
+        // Buscar receitas detalhadas e escalar ingredientes no frontend
+        const cardapio_gerado = [];
         
-        if (response.ok) {
-            showToast('Sucesso!', `O arquivo ${result.file} foi gerado no diretório do projeto.`);
-            // Reset for a new plan if desired
-        } else {
-            showToast('Erro', result.error || 'Falha ao gerar o cardápio', true);
+        for (const refeicao of refeicoes) {
+            const nova_refeicao = {
+                refeicao_id: refeicao.id,
+                porcoes_desejadas: refeicao.porcoes,
+                receitas: []
+            };
+            
+            for (const receitaRef of refeicoes.find(r => r.id === refeicao.id).receitas) {
+                try {
+                    // Buscar receita original via GitHub Raw
+                    const rawResponse = await fetch(`${GITHUB_RAW_BASE}/recipes/${receitaRef.file_id}`);
+                    if (!rawResponse.ok) throw new Error('Receita não encontrada');
+                    const recipe_data = await rawResponse.json();
+                    
+                    const porcoes_originais = recipe_data.porcoes || 1;
+                    const scale_factor = refeicao.porcoes / porcoes_originais;
+                    
+                    // Escalar ingredientes
+                    const scaled_ingredients = scaleIngredients(recipe_data.ingredientes || [], scale_factor);
+                    
+                    const receita_escalada = {
+                        titulo: recipe_data.titulo,
+                        tipo: recipe_data.tipo,
+                        porcoes: refeicao.porcoes,
+                        ingredientes: scaled_ingredients,
+                        modo_de_preparo: recipe_data.modo_de_preparo || [],
+                        fonte: recipe_data.fonte || ''
+                    };
+                    
+                    nova_refeicao.receitas.push(receita_escalada);
+                } catch (e) {
+                    console.error(`Error processing recipe ${receitaRef.file_id}:`, e);
+                }
+            }
+            
+            cardapio_gerado.push(nova_refeicao);
         }
+        
+        // Gerar arquivo para download
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+        const filename = `cardapio_${timestamp}.json`;
+        const blob = new Blob([JSON.stringify(cardapio_gerado, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        
+        showToast('Sucesso!', `O arquivo ${filename} foi baixado com o cardápio gerado.`);
+        
     } catch (error) {
         console.error('Error generating cardapio:', error);
-        showToast('Erro', 'Ocorreu um erro de rede.', true);
+        showToast('Erro', 'Ocorreu um erro ao gerar o cardápio.', true);
     } finally {
         btn.disabled = false;
         btn.textContent = 'Gerar Arquivo JSON';
     }
+}
+
+function scaleIngredients(ingredientes, scale_factor) {
+    const scaled = [];
+    for (const ingrediente of ingredientes) {
+        const novo = { nome: ingrediente.nome };
+        const novas_quantidades = [];
+        for (const quant of ingrediente.quantidade || []) {
+            try {
+                let q = quant.quantidade;
+                if (typeof q === 'number') {
+                    novas_quantidades.push({
+                        quantidade: Math.round(q * scale_factor * 100) / 100,
+                        unidade_de_medida: quant.unidade_de_medida || ''
+                    });
+                } else {
+                    novas_quantidades.push(quant);
+                }
+            } catch {
+                novas_quantidades.push(quant);
+            }
+        }
+        novo.quantidade = novas_quantidades;
+        scaled.push(novo);
+    }
+    return scaled;
 }
 
 function showToast(title, message, isError = false) {
@@ -237,7 +344,7 @@ function showToast(title, message, isError = false) {
     }, 5000);
 }
 
-// Viewer Modal Logic
+// Viewer Modal Logic (listagem de cardápios locais/baixados)
 document.addEventListener('DOMContentLoaded', () => {
     const btnView = document.getElementById('btn-view-cardapios');
     const btnClose = document.getElementById('btn-close-modal');
@@ -246,7 +353,6 @@ document.addEventListener('DOMContentLoaded', () => {
     btnView.addEventListener('click', openViewerModal);
     btnClose.addEventListener('click', closeViewerModal);
     
-    // Close on click outside
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
             closeViewerModal();
@@ -265,33 +371,40 @@ function closeViewerModal() {
 
 async function loadCardapiosList() {
     const listEl = document.getElementById('cardapio-list');
-    listEl.innerHTML = '<li class="loading-text">Carregando...</li>';
+    listEl.innerHTML = '<li class="loading-text">Nenhum cardápio salvo no GitHub. Baixe um cardápio para abrir para impressão.</li>';
     
     try {
-        const response = await fetch('/api/cardapios');
-        const files = await response.json();
+        // Tentar listar cardápios salvos no GitHub (pasta cardapios/)
+        const response = await fetch(`${GITHUB_API_BASE}/contents/cardapios`);
         
-        if (files.length === 0) {
-            listEl.innerHTML = '<li class="loading-text">Nenhum cardápio gerado ainda.</li>';
-            return;
-        }
-        
-        listEl.innerHTML = '';
-        files.forEach(file => {
-            const li = document.createElement('li');
-            li.innerHTML = `
-                <span class="filename">${file.filename}</span>
-                <span class="date">${file.created_at}</span>
-            `;
-            li.addEventListener('click', () => {
-                // Open new tab for print
-                window.open('/print.html?file=' + encodeURIComponent(file.filename), '_blank');
-                closeViewerModal();
+        if (response.ok) {
+            const files = await response.json();
+            const cardapioFiles = files.filter(f => f.name.startsWith('cardapio_') && f.name.endsWith('.json'));
+            
+            if (cardapioFiles.length === 0) {
+                listEl.innerHTML = '<li class="loading-text">Nenhum cardápio encontrado no GitHub.</li>';
+                return;
+            }
+            
+            listEl.innerHTML = '';
+            cardapioFiles.forEach(file => {
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <span class="filename">${file.name}</span>
+                `;
+                li.addEventListener('click', () => {
+                    // Abrir print com o arquivo raw do GitHub
+                    const rawUrl = `${GITHUB_RAW_BASE}/cardapios/${file.name}`;
+                    window.open(`/print.html?file=${encodeURIComponent(rawUrl)}`, '_blank');
+                    closeViewerModal();
+                });
+                listEl.appendChild(li);
             });
-            listEl.appendChild(li);
-        });
+        } else {
+            listEl.innerHTML = '<li class="loading-text">Não foi acessível listar cardápios no GitHub.</li>';
+        }
     } catch (error) {
-        console.error('Error loading files:', error);
+        console.error('Error loading cardapios:', error);
         listEl.innerHTML = '<li class="loading-text" style="color:var(--danger-color)">Erro ao carregar lista.</li>';
     }
-}
+});

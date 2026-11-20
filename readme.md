@@ -1,6 +1,8 @@
 # 🍱 Food Menu — Planejador de Cardápios e Marmitas
 
-Sistema web para planejar cardápios semanais com base em um banco de receitas local, calcular automaticamente a lista de compras e gerar um guia de preparo em lote (*batch cooking*) pronto para impressão.
+Sistema web estático para planejar cardápios semanais com base em um banco de receitas versionado no GitHub, calcular automaticamente a lista de compras e gerar um guia de preparo em lote (*batch cooking*) pronto para impressão.
+
+O frontend é **100% estático** (HTML/JS/CSS) e lê as receitas diretamente do GitHub via **GitHub Raw** (opção A), sem necessidade de servidor backend.
 
 ## Índice
 
@@ -12,7 +14,8 @@ Sistema web para planejar cardápios semanais com base em um banco de receitas l
 - [Requisitos](#requisitos)
 - [Como Executar](#como-executar)
 - [Estrutura de Diretórios](#estrutura-de-diretórios)
-- [API REST](#api-rest)
+- [Servidores MCP](#servidores-mcp)
+- [Dois Fluxos de Trabalho](#dois-fluxos-de-trabalho)
 - [Contribuindo](#contribuindo)
 
 ---
@@ -24,7 +27,7 @@ O **Food Menu** resolve o problema de planejar refeições para vários dias de 
 1. **Escala os ingredientes** matematicamente para o número de porções escolhido.
 2. **Consolida a lista de compras** somando ingredientes iguais de receitas diferentes.
 3. **Gera um guia de preparo** com receitas unificadas (sem repetição) e um roteiro de montagem das marmitas.
-4. Salva tudo em um arquivo JSON local, pronto para consulta ou impressão.
+4. Gera um arquivo `.json` para download, pronto para consulta ou impressão.
 
 ---
 
@@ -34,19 +37,21 @@ O **Food Menu** resolve o problema de planejar refeições para vários dias de 
 - Definir a quantidade de dias do cardápio (1 dia = 2 porções: almoço e jantar).
 - Construir refeições selecionando proteína, acompanhamento e complementos.
 - Barra de progresso visual indicando quantas porções faltam para completar a meta.
-- Geração do cardápio em JSON com ingredientes escalados automaticamente.
+- Geração do cardápio em JSON com ingredientes escalados automaticamente (feito no navegador).
+- Download do arquivo `cardapio_YYYYMMDD_HHMMSS.json`.
 
 ### Visualizador de Cardápios (`print.html`)
 - Tela dedicada e separada, otimizada para impressão em papel (fundo branco, sem cores desnecessárias).
+- Aceita um arquivo JSON de cardápio via parâmetro URL (`?file=<url-do-json>`).
 - **Lista de Compras Consolidada**: Soma todos os ingredientes de todas as receitas do cardápio.
 - **Guia de Cozimento**: Receitas consolidadas (se a mesma receita aparece em mais de uma refeição, ela é exibida uma única vez com os totais somados).
 - **Guia de Montagem das Marmitas**: Roteiro indicando quantas marmitas montar para cada refeição e quais preparos incluir.
 
 ### Gerenciador de Receitas (`recipes.html`)
-- Visualizar, editar e criar receitas diretamente pela interface web.
+- Visualizar e editar receitas diretamente pela interface web (leituras via GitHub Raw).
 - Formulário dinâmico para ingredientes (com múltiplas unidades de medida) e modo de preparo.
 - Busca por texto para localizar receitas rapidamente.
-- As alterações são salvas diretamente nos arquivos JSON em `recipes/`.
+- **Salvar**: Como é frontend estático sem backend, o botão "Salvar" abre uma Issue no GitHub com o template de Nova Receita. O agente de IA processa e commita automaticamente via GitHub Actions.
 
 ---
 
@@ -54,36 +59,28 @@ O **Food Menu** resolve o problema de planejar refeições para vários dias de 
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    NAVEGADOR (Frontend)                  │
+│                    NAVEGADOR (Frontend Estático)         │
 │                                                         │
 │  index.html ─── script.js    (Gerador de Cardápios)     │
 │  recipes.html ─ recipes.js   (Gerenciador de Receitas)  │
 │  print.html ─── print.js     (Visualização / Impressão) │
 │  style.css                   (Estilos compartilhados)   │
 └────────────────────────┬────────────────────────────────┘
-                         │ HTTP (REST API)
+                         │ HTTPS (GitHub API + Raw)
 ┌────────────────────────▼────────────────────────────────┐
-│                   SERVIDOR (Backend)                     │
+│                 GITHUB (rflucas-personal/food-menu)     │
 │                                                         │
-│  app.py (Flask)                                         │
-│  ├── Serve arquivos estáticos de static/                │
-│  ├── Lê/Escreve receitas de recipes/*.json              │
-│  ├── Escala ingredientes (scale_ingredients)             │
-│  └── Gera/Lista cardápios em cardapios/*.json           │
-└────────────────────────┬────────────────────────────────┘
-                         │ Sistema de Arquivos
-┌────────────────────────▼────────────────────────────────┐
-│                  DADOS (Arquivos JSON)                   │
-│                                                         │
-│  recipes/         → Banco de receitas (fonte de verdade)│
-│  cardapios/       → Cardápios gerados (saída)           │
+│  └─ recipes/      → Banco de receitas (fonte de verdade)│
+│  └─ cardapios/    → Cardápios versionados (opcional)    │
+│  └─ .github/      → Workflows CI/CD (Issues → IA)       │
 └─────────────────────────────────────────────────────────┘
 ```
 
 **Stack tecnológica:**
-- **Backend**: Python 3 + Flask
-- **Frontend**: HTML, CSS (Vanilla) e JavaScript (Vanilla)
-- **Persistência**: Arquivos JSON no sistema de arquivos local (sem banco de dados)
+- **Frontend**: HTML, CSS (Vanilla) e JavaScript (Vanilla) — 100% estático
+- **Persistência**: Arquivos JSON versionados no GitHub (sem servidor, sem banco de dados)
+- **Leitura de receitas**: GitHub API (listar pasta) + GitHub Raw (baixar arquivos)
+- **Cadastro de receitas**: GitHub Issues + GitHub Actions + `recipe_agent.py` (IA)
 
 ---
 
@@ -156,7 +153,7 @@ Uma refeição é a composição de receitas que formam um prato completo:
 
 ### Cardápio
 
-Um cardápio é a coleção de refeições planejadas para um período de dias. Cada cardápio é salvo como um arquivo JSON na pasta `cardapios/`.
+Um cardápio é a coleção de refeições planejadas para um período de dias.
 
 ```json
 [
@@ -204,35 +201,35 @@ Um cardápio é a coleção de refeições planejadas para um período de dias. 
 
 ## Requisitos
 
-- **Python** 3.10+
-- **Flask** 3.x
 - Navegador moderno (Chrome, Firefox, Edge)
+- Acesso à internet (para ler receitas do GitHub Raw)
 
-### Dependências Python
-```
-flask
-```
+Não é necessário instalar Python, Flask ou qualquer servidor para usar o frontend estático.
 
 ---
 
 ## Como Executar
 
+### Apenas abrir no navegador
+
+Como é um frontend estático, basta abrir o arquivo `static/index.html` diretamente no navegador:
+
 ```bash
-# 1. Clonar o repositório
-git clone <url-do-repositorio>
-cd food-menu
+# Abrir diretamente
+open static/index.html
 
-# 2. Criar o ambiente virtual (uma única vez)
-python3 -m venv .venv
-
-# 3. Instalar dependências (uma única vez)
-.venv/bin/pip install flask
-
-# 4. Iniciar o servidor
-./run.sh
+# Ou usar qualquer servidor estático simples (opcional)
+python3 -m http.server 8000 --directory static
+# Acesse http://localhost:8000/index.html
 ```
 
-O servidor sobe em `http://localhost:3000`. O script `run.sh` ativa o ambiente virtual automaticamente.
+### Deploy no Google Pages
+
+O projeto está pronto para deploy no **Google Pages** (ou GitHub Pages, Netlify, Vercel, etc.) por ser 100% estático:
+
+1. Faça push do código para o GitHub
+2. Configure o Google Pages para servir a pasta `static/`
+3. Acesse a URL do seu site
 
 ---
 
@@ -240,79 +237,145 @@ O servidor sobe em `http://localhost:3000`. O script `run.sh` ativa o ambiente v
 
 ```
 food-menu/
-├── app.py              # Backend Flask (API REST + servidor estático)
-├── run.sh              # Script para iniciar a aplicação
 ├── readme.md           # Este documento
-├── recipes/            # Banco de receitas (arquivos JSON individuais)
+├── AGENTS.md           # Instruções para o agente Open Code
+├── .mcp.json           # Configuração de servidores MCP
+├── .gitignore
+├── app.py              # Backend Flask (mantido por compatibilidade, não necessário)
+├── run.sh              # Script para iniciar o servidor Flask (opcional)
+├── Procfile            # gunicorn app:app (opcional)
+├── requirements.txt    # Dependências Python (apenas se usar app.py)
+├── recipes/            # Banco de receitas (arquivos .json individuais)
 │   ├── arroz-branco.json
 │   ├── frango-empanado.json
-│   ├── legumes-assados.json
 │   └── ... (60 receitas)
-├── cardapios/          # Cardápios gerados pelo sistema
-│   ├── cardapio_20260426_130628.json
-│   └── ...
-├── static/             # Frontend (servido pelo Flask)
+├── cardapios/          # Cardápios versionados no GitHub (opcional)
+│   └── cardapio_20260426_130628.json
+├── static/             # Frontend estático
 │   ├── index.html      # Página: Gerador de Cardápios
-│   ├── script.js       # Lógica do Gerador
+│   ├── script.js       # Lógica do Gerador (lê do GitHub Raw)
 │   ├── recipes.html    # Página: Gerenciador de Receitas
-│   ├── recipes.js      # Lógica do Gerenciador
+│   ├── recipes.js      # Lógica do Gerenciador (lê do GitHub Raw)
 │   ├── print.html      # Página: Visualização para Impressão
 │   ├── print.js        # Lógica de consolidação e renderização
 │   └── style.css       # Estilos compartilhados (Light Mode)
-└── .venv/              # Ambiente virtual Python (não versionado)
+├── scripts/            # Utilitários Python
+│   ├── portion_calculator.py   # Cálculo peso cru/cozido e porções
+│   ├── validate_recipes.py     # Validador de integridade das receitas
+│   ├── fix_portions.py         # Re-calibra porções de todas as receitas
+│   ├── recipe_agent.py         # Agente original (usa GEMINI_API_KEY no CI/CD)
+│   ├── opencode_recipe_agent.py # Agente Open Code local (sem chaves externas)
+│   └── opencode_github_flow.py # Validador local de issues/PRs via GitHub API
+└── .github/            # GitHub Actions CI/CD
+    ├── workflows/
+    │   ├── ci.yml              # Valida integridade de receitas em push/PR
+    │   └── nova-receita.yml    # Agente de IA processa issues/PRs de receita
+    ├── ISSUE_TEMPLATE/
+    │   └── nova_receita.yml
+    └── PULL_REQUEST_TEMPLATE.md
 ```
 
 ---
 
-## API REST
+## Servidores MCP
 
-| Método | Rota                        | Descrição                                           |
-| ------ | --------------------------- | --------------------------------------------------- |
-| `GET`  | `/api/recipes`              | Lista todas as receitas disponíveis                 |
-| `GET`  | `/api/recipes/<id>`         | Retorna uma receita específica pelo nome do arquivo |
-| `POST` | `/api/recipes`              | Cria uma nova receita                               |
-| `PUT`  | `/api/recipes/<id>`         | Atualiza uma receita existente                      |
-| `POST` | `/api/generate`             | Gera um cardápio com ingredientes escalados         |
-| `GET`  | `/api/cardapios`            | Lista todos os cardápios gerados                    |
-| `GET`  | `/api/cardapios/<filename>` | Retorna o conteúdo de um cardápio específico        |
+O projeto está configurado com os seguintes servidores MCP (definidos em `.mcp.json`) para trabalhar com Open Code:
+
+| Servidor | Utilidade no projeto |
+|----------|---------------------|
+| `filesystem` | Ler e gravar arquivos de `recipes/`, `cardapios/`, `static/` e `scripts/` |
+| `git` | Operações Git: commit, branch, diff, log, push |
+| `memory` | Memória persistente para contexto do projeto entre sessões do Open Code |
+| `sequential-thinking` | Raciocínio passo a passo para planejamento de cardápios e validação de receitas |
+| `github` | Issues, PRs e comentários (opcional, requer `GITHUB_PERSONAL_ACCESS_TOKEN`) |
+| `fetch` | Busca de conteúdo web para receitas externas e referências |
 
 ---
 
-## Contribuindo
+## Dois Fluxos de Trabalho
 
-### Adicionando Receitas
+O projeto suporta dois modos de operação:
 
-A forma mais simples de contribuir é adicionando novas receitas. Você pode fazer isso de duas maneiras:
+| Fluxo | Como funciona | Custo | Automação |
+|-------|--------------|-------|-----------|
+| **A — Semi-automático (Open Code local)** | O agente Open Code estrutura a receita e salva via `opencode_recipe_agent.py` | Grátis | Manual (sob demanda) |
+| **B — Automático (GitHub Actions)** | Issue/PR dispara `recipe_agent.py` com IA no CI/CD e commita direto | Grátis (Gemini free tier) | Automático via webhook |
 
-1. **Pela interface web**: Acesse `http://localhost:3000/recipes.html`, clique em **"+ Nova"** e preencha o formulário.
+---
+
+### Fluxo B — CI/CD Automatizado (Recomendado)
+
+Uma Issue com label `nova-receita` ou um PR com label `receita` dispara o GitHub Actions, que executa o `recipe_agent.py` com IA, valida as receitas, commita direto na `main`, comenta e fecha a issue/PR automaticamente.
+
+**Pré-requisito no GitHub:**
+- Settings → Secrets and variables → Actions → New repository secret
+- Nome: `GEMINI_API_KEY` (recomendado, tem free tier) ou `OPENAI_API_KEY`
+
+**Como usar:**
+1. Abra uma Issue com o template "🍳 Cadastrar Nova Receita" ou um PR com label `receita`.
+2. O workflow `.github/workflows/nova-receita.yml` processa a receita com IA.
+3. O bot commita `recipes/<slug>.json`, comenta e fecha a issue/PR.
+4. O workflow `.github/workflows/ci.yml` valida a integridade de todas as receitas em cada push/PR.
+
+---
+
+### Fluxo A — Semi-automático (Open Code Local)
+
+Se preferir não usar GitHub Actions nem chave de API, processe receitas manualmente pelo agente Open Code:
+
+```bash
+python scripts/opencode_recipe_agent.py --save receita.json --source "Open Code"
+```
+
+O agente valida, calibra as porções com base no peso cozido e salva em `recipes/<slug>.json`.
+
+**Não use** `scripts/recipe_agent.py` original para novas receitas localmente — ele requer `GEMINI_API_KEY` ou `OPENAI_API_KEY`. Use sempre `scripts/opencode_recipe_agent.py`.
+
+---
+
+### Adicionando Receitas (qualquer fluxo)
+
+1. **Pela interface web**: Abra `recipes.html`, clique em **"+ Nova"** e preencha o formulário. Clicar em "Salvar" abrirá uma Issue no GitHub com os dados preenchidos.
 2. **Manualmente**: Crie um arquivo `.json` na pasta `recipes/` seguindo a [estrutura de dados da Receita](#receita).
+3. **Via Issue/PR (Fluxo B)**: Abra uma Issue ou PR no GitHub; o agente de IA processa automaticamente.
 
-3. **Via GitHub Automático (Agente IA)**:
-   - **Pelo Pull Request**: Abra um PR com o título `[Receita] Nome` e cole os ingredientes/preparo no corpo. O Agente de IA formata o JSON, calibra as porções com base no rendimento cru/cozido e commita automaticamente na `main`.
-   - **Pela Issue (ótimo no celular)**: Abra uma Issue com a tag `nova-receita` ou use o template de Nova Receita. O Agente processa, gera o commit na `main` e fecha a Issue com o preview da receita.
+---
 
 ### Desenvolvendo e Validando
 
 ```bash
-# Rodar em modo de desenvolvimento (hot-reload ativado por padrão)
-./run.sh
-
 # Validar integridade de todas as receitas
 python scripts/validate_recipes.py
 
 # Re-calibrar porções com base no peso cozido e rendimento
-python fix_portions.py
+python scripts/fix_portions.py
+
+# Listar receitas (Open Code local)
+python scripts/opencode_recipe_agent.py --list
 ```
 
 **Convenções:**
 - Nomes de arquivos de receitas em kebab-case: `frango-empanado.json`
+- Título da receita com primeira letra maiúscula
+- `tipo`: `proteina`, `acompanhamento` ou `complemento`
+- `porcoes`: inteiro positivo
+- Tags em letras minúsculas
 - Código Python segue PEP 8
 - Frontend em Vanilla JS/CSS (sem frameworks ou bundlers)
 - Persistência exclusivamente via arquivos JSON locais (sem banco de dados)
 
-### Fluxo de Contribuição
+---
+
+### Fluxo de Contribuição (Fluxo B)
+
+1. Abra uma Issue com o template "🍳 Cadastrar Nova Receita" ou um PR com label `receita`.
+2. O GitHub Actions processa automaticamente com IA.
+3. O bot commita a receita em `recipes/<slug>.json` e fecha a issue/comenta no PR.
+4. O workflow `ci.yml` valida a integridade de todas as receitas em cada push/PR.
+
+### Fluxo de Contribuição (Fluxo A - Open Code local)
 
 1. Crie uma branch a partir de `main`
-2. Faça suas alterações
-3. Teste localmente (`./run.sh`)
+2. Adicione/edite receitas em `recipes/`
+3. Teste localmente (abra `static/index.html` no navegador e `python scripts/validate_recipes.py`)
 4. Abra um Pull Request com a descrição das mudanças

@@ -1,29 +1,33 @@
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const filename = urlParams.get('file');
+    const file = urlParams.get('file');
 
-    if (!filename) {
+    if (!file) {
         document.getElementById('content').innerHTML = '<p class="danger-color">Nenhum arquivo especificado.</p>';
         return;
     }
 
-    loadPrintData(filename);
+    loadPrintData(file);
 });
 
-async function loadPrintData(filename) {
+async function loadPrintData(file) {
     try {
-        const response = await fetch(`/api/cardapios/${filename}`);
-        const cardapio = await response.json();
-
-        if (cardapio.error) {
-            throw new Error(cardapio.error);
+        const response = await fetch(file);
+        
+        if (!response.ok) {
+            throw new Error(`Não foi possível carregar o cardápio: ${response.status}`);
         }
-
-        renderPrintView(filename, cardapio);
+        
+        const cardapio = await response.json();
+        renderPrintView(file, cardapio);
 
     } catch (error) {
         console.error(error);
-        document.getElementById('content').innerHTML = '<p style="color:red">Erro ao carregar os dados para impressão.</p>';
+        document.getElementById('content').innerHTML = `
+            <p style="color:red">Erro ao carregar os dados para impressão.</p>
+            <p>Detalhes: ${error.message}</p>
+            <p>Certifique-se de que o arquivo é acessível (ex: raw.githubusercontent.com ou arquivo local).</p>
+        `;
     }
 }
 
@@ -70,19 +74,15 @@ function consolidateRecipes(cardapio) {
         ref.receitas.forEach(rec => {
             const titulo = rec.titulo;
             if (!recipesMap[titulo]) {
-                // Deep copy the first time we see it
                 recipesMap[titulo] = JSON.parse(JSON.stringify(rec));
             } else {
-                // Sum portions
                 recipesMap[titulo].porcoes += rec.porcoes;
                 
-                // Sum ingredients
                 rec.ingredientes.forEach(ing => {
                     let targetIng = recipesMap[titulo].ingredientes.find(i => i.nome === ing.nome);
                     if (!targetIng) {
                         recipesMap[titulo].ingredientes.push(JSON.parse(JSON.stringify(ing)));
                     } else {
-                        // Sum quantities
                         ing.quantidade.forEach(q => {
                             let targetQ = targetIng.quantidade.find(tq => tq.unidade_de_medida === q.unidade_de_medida);
                             if (!targetQ) {
@@ -99,7 +99,6 @@ function consolidateRecipes(cardapio) {
         });
     });
     
-    // Sort recipes by type: proteina -> acompanhamento -> complemento
     const typeOrder = { 'proteina': 1, 'acompanhamento': 2, 'complemento': 3 };
     const result = Object.values(recipesMap);
     result.sort((a, b) => {
@@ -114,7 +113,6 @@ function consolidateRecipes(cardapio) {
 function renderPrintView(filename, cardapio) {
     const contentEl = document.getElementById('content');
     
-    // 1. Generate Consolidated List
     const consolidatedIngs = consolidateIngredients(cardapio);
     
     let html = `
