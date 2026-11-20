@@ -1,0 +1,66 @@
+{
+  "titulo": "Frango Xadrez com Legumes",
+  "tipo": "proteina",
+  "tags": [
+    "frango",
+    "xadrez",
+    "legumes",
+    "forno"
+  ],
+  "ingredientes": [
+    {
+      "nome": "Filé de peito de frango",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "kg"
+        }
+      ]
+    },
+    {
+      "nome": "Pimentão vermelho",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Cebola roxa",
+      "quantidade": [
+        {
+          "quantidade": 1.0,
+          "unidade_de_medida": "un"
+        }
+      ]
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": [
+        {
+          "quantidade": 2.0,
+          "unidade_de_medida": "colher de sopa"
+        }
+      ]
+    },
+    {
+      "nome": "Sal",
+      "quantidade": [
+        {
+          "quantidade": 0.0,
+          "unidade_de_medida": "a gosto"
+        }
+      ]
+    }
+  ],
+  "modo_de_preparo": [
+    "Corte o frango em cubos pequenos.",
+    "Tempere com sal e pimenta.",
+    "Leve ao forno a 200°C por 25 minutos.",
+    "Refogue o pimentão e a cebola no azeite.",
+    "Misture o frango com os legumes e sirva."
+  ],
+  "fonte": "Receita de teste Open Code",
+  "porcoes": 8
+}
